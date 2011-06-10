@@ -1,0 +1,2267 @@
+@base <> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dms: <http://dms.stanford.edu/ns/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://www.e-codices.unifr.ch/m3/kaw-M-III/manifest/NormalSequence>    rdf:first <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/1r>;
+   rdf:rest ( <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00001/1v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00002/2r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00003/2v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00004/3r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00005/3v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00006/4r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00007/4v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00008/5r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00009/5v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00010/6r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00011/6v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00012/7r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00013/7v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00014/8r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00015/8v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00016/9r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00017/9v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00018/10r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00019/10v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00020/11r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00021/11v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00022/12r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00023/12v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00024/13r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00025/13v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00026/14r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00027/14v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00028/15r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00029/15v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00030/16r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00031/16v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00032/17r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00033/17v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00034/18r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00035/18v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00036/19r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00037/19v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00038/20r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00039/20v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00040/21r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00041/21v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00042/22r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00043/22v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00044/23r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00045/23v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00046/24r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00047/24v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00048/25r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00049/25v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00050/26r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00051/26v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00052/27r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00053/27v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00054/28r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00055/28v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00056/29r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00057/29v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00058/30r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00059/30v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00060/31r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00061/31v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00062/32r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00063/32v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00064/33r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00065/33v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00066/34r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00067/34v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00068/35r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00069/35v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00070/36r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00071/36v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00072/37r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00073/37v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00074/38r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00075/38v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00076/39r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00077/39v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00078/40r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00079/40v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00080/41r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00081/41v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00082/42r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00083/42v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00084/43r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00085/43v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00086/44r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00087/44v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00088/45r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00089/45v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00090/46r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00091/46v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00092/47r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00093/47v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00094/48r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00095/48v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00096/49r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00097/49v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00098/50r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00099/50v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00100/51r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00101/51v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00102/52r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00103/52v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00104/53r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00105/53v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00106/54r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00107/54v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00108/55r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00109/55v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00110/56r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00111/56v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00112/57r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00113/57v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00114/58r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00115/58v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00116/59r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00117/59v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00118/60r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00119/60v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00120/61r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00121/61v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00122/62r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00123/62v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00124/63r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00125/63v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00126/64r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00127/64v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00128/65r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00129/65v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00130/66r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00131/66v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00132/67r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00133/67v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00134/68r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00135/68v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00136/69r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00137/69v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00138/70r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00139/70v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00140/71r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00141/71v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00142/72r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00143/72v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00144/73r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00145/73v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00146/74r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00147/74v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00148/75r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00149/75v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00150/76r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00151/76v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00152/77r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00153/77v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00154/78r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00155/78v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00156/79r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00157/79v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00158/80r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00159/80v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00160/81r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00161/81v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00162/82r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00163/82v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00164/83r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00165/83v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00166/84r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00167/84v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00168/85r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00169/85v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00170/86r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00171/86v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00172/87r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00173/87v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00174/88r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00175/88v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00176/89r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00177/89v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00178/90r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00179/90v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00180/91r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00181/91v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00182/92r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00183/92v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00184/93r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00185/93v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00186/94r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00187/94v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00188/95r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00189/95v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00190/96r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00191/96v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00192/97r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00193/97v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00194/98r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00195/98v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00196/99r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00197/99v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00198/100r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00199/100v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00200/101r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00201/101v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00202/102r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00203/102v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00204/103r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00205/103v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00206/104r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00207/104v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00208/105r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00209/105v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00210/106r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00211/106v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00212/107r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00213/107v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00214/108r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00215/108v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00216/109r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00217/109v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00218/110r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00219/110v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00220/111r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00221/111v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00222/112r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00223/112v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00224/113r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00225/113v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00226/114r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00227/114v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00228/115r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00229/115v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00230/116r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00231/116v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00232/117r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00233/117v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00234/118r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00235/118v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00236/119r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00237/119v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00238/120r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00239/120v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00240/121r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00241/121v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00242/122r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00243/122v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00244/123r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00245/123v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00246/124r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00247/124v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00248/125r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00249/125v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00250/126r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00251/126v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00252/127r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00253/127v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00254/128r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00255/128v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00256/129r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00257/129v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00258/130r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00259/130v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00260/131r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00261/131v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00262/132r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00263/132v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00264/133r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00265/133v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00266/134r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00267/134v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00268/135r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00269/135v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00270/136r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00271/136v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00272/137r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00273/137v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00274/138r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00275/138v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00276/139r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00277/139v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00278/140r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00279/140v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00280/141r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00281/141v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00282/142r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00283/142v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00284/143r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00285/143v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00286/144r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00287/144v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00288/145r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00289/145v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00290/146r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00291/146v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00292/147r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00293/147v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00294/148r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00295/148v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00296/149r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00297/149v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00298/150r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00299/150v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00300/151r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00301/151v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00302/152r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00303/152v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00304/153r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00305/153v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00306/154r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00307/154v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00308/155r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00309/155v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00310/156r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00311/156v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00312/157r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00313/157v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00314/158r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00315/158v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00316/159r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00317/159v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00318/160r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00319/160v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00320/161r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00321/161v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00322/162r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00323/162v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00324/163r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00325/163v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00326/164r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00327/164v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00328/165r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00329/165v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00330/166r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00331/166v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00332/167r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00333/167v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00334/168r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00335/168v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00336/169r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00337/169v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00338/170r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00339/170v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00340/171r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00341/171v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00342/172r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00343/172v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00344/173r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00345/173v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00346/174r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00347/174v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00348/175r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00349/175v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00350/176r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00351/176v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00352/177r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00353/177v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00354/178r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00355/178v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00356/179r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00357/179v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00358/180r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00359/180v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00360/181r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00361/181v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00362/182r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00363/182v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00364/183r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00365/183v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00366/184r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00367/184v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00368/185r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00369/185v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00370/186r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00371/186v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00372/187r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00373/187v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00374/188r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00375/188v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00376/189r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00377/189v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00378/190r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00379/190v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00380/191r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00381/191v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00382/192r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00383/192v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00384/193r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00385/193v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00386/194r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00387/194v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00388/195r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00389/195v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00390/196r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00391/196v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00392/197r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00393/197v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00394/198r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00395/198v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00396/199r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00397/199v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00398/200r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00399/200v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00400/201r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00401/201v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00402/202r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00403/202v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00404/203r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00405/203v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00406/204r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00407/204v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00408/205r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00409/205v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00410/206r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00411/206v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00412/207r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00413/207v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00414/208r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00415/208v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00416/209r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00417/209v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00418/210r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00419/210v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00420/211r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00421/211v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00422/212r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00423/212v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00424/213r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00425/213v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00426/214r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00427/214v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00428/215r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00429/215v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00430/216r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00431/216v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00432/217r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00433/217v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00434/218r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00435/218v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00436/219r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00437/219v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00438/Massstab> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00439/Massstab> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00440/Profil> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00441/Profil> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00442/Profil> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00443/Vorderseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00444/Buchrücken> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00445/Rückseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00446/Schliessenseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00447/Vordere_Innenseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00448/Hintere_Innenseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00449/Kopfschnitt> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00450/Fussschnitt> ) ;
+   ore:aggregates <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00001/1r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00002/1v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00003/2r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00004/2v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00005/3r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00006/3v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00007/4r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00008/4v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00009/5r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00010/5v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00011/6r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00012/6v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00013/7r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00014/7v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00015/8r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00016/8v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00017/9r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00018/9v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00019/10r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00020/10v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00021/11r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00022/11v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00023/12r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00024/12v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00025/13r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00026/13v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00027/14r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00028/14v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00029/15r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00030/15v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00031/16r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00032/16v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00033/17r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00034/17v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00035/18r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00036/18v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00037/19r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00038/19v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00039/20r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00040/20v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00041/21r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00042/21v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00043/22r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00044/22v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00045/23r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00046/23v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00047/24r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00048/24v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00049/25r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00050/25v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00051/26r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00052/26v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00053/27r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00054/27v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00055/28r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00056/28v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00057/29r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00058/29v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00059/30r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00060/30v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00061/31r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00062/31v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00063/32r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00064/32v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00065/33r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00066/33v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00067/34r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00068/34v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00069/35r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00070/35v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00071/36r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00072/36v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00073/37r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00074/37v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00075/38r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00076/38v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00077/39r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00078/39v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00079/40r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00080/40v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00081/41r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00082/41v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00083/42r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00084/42v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00085/43r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00086/43v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00087/44r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00088/44v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00089/45r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00090/45v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00091/46r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00092/46v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00093/47r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00094/47v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00095/48r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00096/48v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00097/49r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00098/49v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00099/50r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00100/50v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00101/51r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00102/51v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00103/52r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00104/52v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00105/53r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00106/53v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00107/54r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00108/54v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00109/55r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00110/55v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00111/56r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00112/56v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00113/57r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00114/57v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00115/58r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00116/58v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00117/59r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00118/59v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00119/60r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00120/60v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00121/61r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00122/61v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00123/62r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00124/62v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00125/63r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00126/63v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00127/64r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00128/64v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00129/65r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00130/65v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00131/66r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00132/66v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00133/67r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00134/67v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00135/68r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00136/68v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00137/69r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00138/69v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00139/70r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00140/70v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00141/71r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00142/71v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00143/72r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00144/72v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00145/73r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00146/73v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00147/74r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00148/74v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00149/75r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00150/75v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00151/76r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00152/76v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00153/77r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00154/77v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00155/78r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00156/78v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00157/79r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00158/79v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00159/80r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00160/80v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00161/81r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00162/81v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00163/82r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00164/82v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00165/83r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00166/83v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00167/84r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00168/84v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00169/85r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00170/85v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00171/86r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00172/86v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00173/87r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00174/87v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00175/88r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00176/88v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00177/89r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00178/89v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00179/90r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00180/90v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00181/91r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00182/91v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00183/92r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00184/92v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00185/93r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00186/93v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00187/94r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00188/94v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00189/95r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00190/95v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00191/96r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00192/96v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00193/97r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00194/97v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00195/98r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00196/98v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00197/99r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00198/99v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00199/100r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00200/100v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00201/101r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00202/101v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00203/102r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00204/102v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00205/103r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00206/103v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00207/104r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00208/104v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00209/105r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00210/105v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00211/106r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00212/106v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00213/107r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00214/107v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00215/108r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00216/108v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00217/109r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00218/109v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00219/110r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00220/110v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00221/111r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00222/111v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00223/112r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00224/112v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00225/113r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00226/113v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00227/114r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00228/114v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00229/115r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00230/115v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00231/116r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00232/116v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00233/117r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00234/117v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00235/118r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00236/118v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00237/119r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00238/119v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00239/120r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00240/120v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00241/121r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00242/121v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00243/122r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00244/122v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00245/123r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00246/123v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00247/124r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00248/124v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00249/125r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00250/125v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00251/126r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00252/126v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00253/127r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00254/127v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00255/128r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00256/128v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00257/129r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00258/129v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00259/130r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00260/130v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00261/131r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00262/131v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00263/132r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00264/132v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00265/133r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00266/133v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00267/134r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00268/134v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00269/135r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00270/135v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00271/136r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00272/136v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00273/137r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00274/137v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00275/138r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00276/138v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00277/139r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00278/139v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00279/140r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00280/140v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00281/141r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00282/141v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00283/142r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00284/142v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00285/143r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00286/143v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00287/144r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00288/144v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00289/145r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00290/145v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00291/146r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00292/146v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00293/147r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00294/147v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00295/148r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00296/148v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00297/149r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00298/149v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00299/150r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00300/150v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00301/151r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00302/151v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00303/152r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00304/152v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00305/153r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00306/153v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00307/154r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00308/154v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00309/155r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00310/155v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00311/156r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00312/156v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00313/157r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00314/157v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00315/158r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00316/158v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00317/159r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00318/159v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00319/160r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00320/160v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00321/161r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00322/161v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00323/162r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00324/162v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00325/163r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00326/163v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00327/164r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00328/164v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00329/165r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00330/165v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00331/166r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00332/166v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00333/167r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00334/167v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00335/168r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00336/168v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00337/169r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00338/169v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00339/170r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00340/170v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00341/171r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00342/171v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00343/172r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00344/172v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00345/173r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00346/173v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00347/174r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00348/174v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00349/175r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00350/175v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00351/176r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00352/176v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00353/177r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00354/177v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00355/178r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00356/178v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00357/179r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00358/179v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00359/180r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00360/180v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00361/181r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00362/181v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00363/182r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00364/182v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00365/183r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00366/183v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00367/184r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00368/184v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00369/185r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00370/185v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00371/186r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00372/186v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00373/187r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00374/187v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00375/188r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00376/188v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00377/189r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00378/189v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00379/190r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00380/190v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00381/191r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00382/191v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00383/192r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00384/192v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00385/193r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00386/193v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00387/194r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00388/194v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00389/195r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00390/195v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00391/196r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00392/196v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00393/197r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00394/197v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00395/198r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00396/198v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00397/199r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00398/199v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00399/200r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00400/200v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00401/201r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00402/201v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00403/202r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00404/202v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00405/203r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00406/203v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00407/204r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00408/204v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00409/205r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00410/205v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00411/206r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00412/206v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00413/207r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00414/207v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00415/208r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00416/208v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00417/209r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00418/209v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00419/210r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00420/210v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00421/211r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00422/211v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00423/212r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00424/212v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00425/213r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00426/213v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00427/214r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00428/214v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00429/215r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00430/215v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00431/216r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00432/216v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00433/217r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00434/217v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00435/218r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00436/218v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00437/219r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00438/219v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00439/Massstab>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00440/Massstab>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00441/Profil>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00442/Profil>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00443/Profil>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00444/Vorderseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00445/Buchrücken>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00446/Rückseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00447/Schliessenseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00448/Vordere_Innenseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00449/Hintere_Innenseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00450/Kopfschnitt>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00451/Fussschnitt>;
+   a dms:sequence,
+   ore:aggregation,
+   rdf:List .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00001/1r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 1r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00002/1v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 1v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00003/2r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 2r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00004/2v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 2v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00005/3r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 3r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00006/3v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 3v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00007/4r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 4r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00008/4v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 4v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00009/5r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 5r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00010/5v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 5v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00011/6r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 6r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00012/6v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 6v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00013/7r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 7r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00014/7v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 7v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00015/8r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 8r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00016/8v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 8v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00017/9r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 9r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00018/9v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 9v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00019/10r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 10r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00020/10v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 10v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00021/11r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 11r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00022/11v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 11v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00023/12r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 12r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00024/12v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 12v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00025/13r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 13r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00026/13v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 13v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00027/14r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 14r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00028/14v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 14v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00029/15r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 15r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00030/15v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 15v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00031/16r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 16r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00032/16v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 16v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00033/17r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 17r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00034/17v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 17v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00035/18r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 18r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00036/18v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 18v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00037/19r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 19r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00038/19v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 19v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00039/20r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 20r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00040/20v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 20v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00041/21r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 21r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00042/21v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 21v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00043/22r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 22r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00044/22v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 22v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00045/23r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 23r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00046/23v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 23v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00047/24r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 24r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00048/24v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 24v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00049/25r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 25r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00050/25v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 25v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00051/26r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 26r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00052/26v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 26v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00053/27r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 27r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00054/27v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 27v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00055/28r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 28r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00056/28v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 28v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00057/29r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 29r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00058/29v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 29v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00059/30r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 30r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00060/30v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 30v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00061/31r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 31r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00062/31v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 31v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00063/32r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 32r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00064/32v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 32v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00065/33r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 33r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00066/33v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 33v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00067/34r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 34r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00068/34v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 34v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00069/35r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 35r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00070/35v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 35v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00071/36r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 36r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00072/36v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 36v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00073/37r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 37r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00074/37v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 37v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00075/38r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 38r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00076/38v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 38v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00077/39r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 39r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00078/39v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 39v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00079/40r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 40r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00080/40v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 40v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00081/41r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 41r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00082/41v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 41v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00083/42r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 42r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00084/42v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 42v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00085/43r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 43r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00086/43v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 43v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00087/44r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 44r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00088/44v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 44v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00089/45r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 45r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00090/45v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 45v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00091/46r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 46r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00092/46v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 46v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00093/47r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 47r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00094/47v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 47v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00095/48r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 48r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00096/48v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 48v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00097/49r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 49r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00098/49v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 49v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00099/50r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 50r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00100/50v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 50v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00101/51r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 51r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00102/51v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 51v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00103/52r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 52r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00104/52v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 52v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00105/53r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 53r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00106/53v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 53v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00107/54r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 54r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00108/54v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 54v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00109/55r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 55r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00110/55v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 55v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00111/56r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 56r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00112/56v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 56v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00113/57r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 57r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00114/57v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 57v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00115/58r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 58r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00116/58v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 58v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00117/59r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 59r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00118/59v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 59v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00119/60r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 60r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00120/60v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 60v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00121/61r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 61r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00122/61v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 61v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00123/62r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 62r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00124/62v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 62v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00125/63r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 63r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00126/63v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 63v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00127/64r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 64r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00128/64v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 64v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00129/65r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 65r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00130/65v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 65v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00131/66r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 66r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00132/66v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 66v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00133/67r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 67r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00134/67v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 67v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00135/68r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 68r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00136/68v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 68v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00137/69r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 69r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00138/69v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 69v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00139/70r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 70r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00140/70v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 70v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00141/71r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 71r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00142/71v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 71v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00143/72r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 72r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00144/72v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 72v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00145/73r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 73r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00146/73v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 73v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00147/74r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 74r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00148/74v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 74v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00149/75r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 75r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00150/75v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 75v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00151/76r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 76r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00152/76v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 76v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00153/77r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 77r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00154/77v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 77v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00155/78r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 78r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00156/78v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 78v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00157/79r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 79r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00158/79v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 79v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00159/80r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 80r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00160/80v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 80v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00161/81r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 81r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00162/81v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 81v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00163/82r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 82r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00164/82v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 82v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00165/83r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 83r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00166/83v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 83v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00167/84r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 84r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00168/84v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 84v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00169/85r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 85r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00170/85v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 85v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00171/86r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 86r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00172/86v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 86v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00173/87r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 87r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00174/87v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 87v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00175/88r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 88r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00176/88v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 88v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00177/89r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 89r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00178/89v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 89v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00179/90r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 90r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00180/90v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 90v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00181/91r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 91r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00182/91v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 91v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00183/92r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 92r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00184/92v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 92v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00185/93r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 93r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00186/93v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 93v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00187/94r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 94r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00188/94v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 94v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00189/95r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 95r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00190/95v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 95v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00191/96r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 96r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00192/96v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 96v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00193/97r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 97r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00194/97v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 97v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00195/98r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 98r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00196/98v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 98v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00197/99r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 99r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00198/99v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 99v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00199/100r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 100r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00200/100v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 100v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00201/101r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 101r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00202/101v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 101v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00203/102r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 102r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00204/102v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 102v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00205/103r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 103r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00206/103v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 103v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00207/104r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 104r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00208/104v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 104v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00209/105r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 105r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00210/105v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 105v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00211/106r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 106r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00212/106v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 106v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00213/107r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 107r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00214/107v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 107v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00215/108r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 108r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00216/108v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 108v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00217/109r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 109r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00218/109v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 109v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00219/110r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 110r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00220/110v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 110v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00221/111r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 111r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00222/111v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 111v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00223/112r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 112r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00224/112v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 112v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00225/113r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 113r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00226/113v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 113v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00227/114r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 114r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00228/114v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 114v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00229/115r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 115r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00230/115v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 115v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00231/116r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 116r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00232/116v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 116v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00233/117r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 117r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00234/117v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 117v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00235/118r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 118r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00236/118v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 118v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00237/119r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 119r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00238/119v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 119v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00239/120r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 120r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00240/120v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 120v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00241/121r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 121r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00242/121v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 121v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00243/122r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 122r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00244/122v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 122v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00245/123r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 123r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00246/123v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 123v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00247/124r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 124r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00248/124v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 124v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00249/125r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 125r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00250/125v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 125v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00251/126r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 126r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00252/126v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 126v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00253/127r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 127r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00254/127v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 127v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00255/128r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 128r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00256/128v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 128v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00257/129r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 129r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00258/129v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 129v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00259/130r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 130r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00260/130v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 130v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00261/131r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 131r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00262/131v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 131v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00263/132r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 132r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00264/132v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 132v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00265/133r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 133r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00266/133v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 133v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00267/134r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 134r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00268/134v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 134v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00269/135r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 135r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00270/135v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 135v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00271/136r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 136r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00272/136v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 136v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00273/137r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 137r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00274/137v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 137v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00275/138r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 138r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00276/138v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 138v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00277/139r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 139r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00278/139v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 139v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00279/140r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 140r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00280/140v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 140v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00281/141r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 141r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00282/141v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 141v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00283/142r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 142r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00284/142v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 142v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00285/143r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 143r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00286/143v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 143v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00287/144r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 144r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00288/144v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 144v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00289/145r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 145r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00290/145v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 145v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00291/146r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 146r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00292/146v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 146v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00293/147r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 147r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00294/147v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 147v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00295/148r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 148r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00296/148v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 148v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00297/149r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 149r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00298/149v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 149v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00299/150r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 150r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00300/150v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 150v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00301/151r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 151r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00302/151v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 151v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00303/152r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 152r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00304/152v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 152v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00305/153r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 153r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00306/153v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 153v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00307/154r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 154r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00308/154v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 154v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00309/155r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 155r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00310/155v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 155v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00311/156r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 156r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00312/156v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 156v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00313/157r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 157r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00314/157v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 157v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00315/158r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 158r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00316/158v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 158v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00317/159r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 159r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00318/159v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 159v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00319/160r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 160r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00320/160v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 160v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00321/161r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 161r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00322/161v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 161v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00323/162r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 162r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00324/162v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 162v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00325/163r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 163r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00326/163v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 163v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00327/164r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 164r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00328/164v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 164v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00329/165r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 165r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00330/165v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 165v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00331/166r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 166r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00332/166v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 166v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00333/167r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 167r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00334/167v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 167v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00335/168r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 168r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00336/168v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 168v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00337/169r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 169r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00338/169v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 169v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00339/170r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 170r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00340/170v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 170v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00341/171r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 171r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00342/171v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 171v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00343/172r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 172r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00344/172v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 172v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00345/173r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 173r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00346/173v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 173v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00347/174r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 174r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00348/174v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 174v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00349/175r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 175r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00350/175v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 175v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00351/176r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 176r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00352/176v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 176v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00353/177r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 177r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00354/177v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 177v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00355/178r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 178r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00356/178v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 178v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00357/179r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 179r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00358/179v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 179v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00359/180r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 180r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00360/180v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 180v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00361/181r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 181r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00362/181v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 181v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00363/182r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 182r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00364/182v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 182v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00365/183r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 183r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00366/183v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 183v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00367/184r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 184r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00368/184v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 184v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00369/185r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 185r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00370/185v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 185v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00371/186r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 186r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00372/186v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 186v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00373/187r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 187r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00374/187v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 187v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00375/188r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 188r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00376/188v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 188v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00377/189r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 189r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00378/189v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 189v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00379/190r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 190r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00380/190v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 190v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00381/191r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 191r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00382/191v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 191v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00383/192r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 192r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00384/192v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 192v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00385/193r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 193r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00386/193v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 193v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00387/194r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 194r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00388/194v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 194v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00389/195r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 195r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00390/195v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 195v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00391/196r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 196r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00392/196v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 196v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00393/197r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 197r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00394/197v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 197v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00395/198r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 198r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00396/198v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 198v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00397/199r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 199r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00398/199v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 199v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00399/200r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 200r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00400/200v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 200v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00401/201r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 201r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00402/201v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 201v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00403/202r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 202r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00404/202v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 202v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00405/203r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 203r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00406/203v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 203v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00407/204r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 204r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00408/204v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 204v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00409/205r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 205r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00410/205v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 205v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00411/206r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 206r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00412/206v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 206v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00413/207r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 207r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00414/207v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 207v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00415/208r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 208r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00416/208v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 208v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00417/209r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 209r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00418/209v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 209v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00419/210r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 210r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00420/210v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 210v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00421/211r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 211r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00422/211v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 211v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00423/212r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 212r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00424/212v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 212v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00425/213r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 213r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00426/213v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 213v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00427/214r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 214r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00428/214v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 214v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00429/215r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 215r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00430/215v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 215v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00431/216r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 216r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00432/216v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 216v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00433/217r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 217r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00434/217v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 217v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00435/218r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 218r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00436/218v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 218v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00437/219r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 219r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00438/219v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. 219v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00439/Massstab> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III Ruler";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00440/Massstab> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III Ruler";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00441/Profil> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III Color profile";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00442/Profil> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III Color profile";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00443/Profil> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III Color profile";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00444/Vorderseite> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III Front cover";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00445/Buchrücken> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III Spine";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00446/Rückseite> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III Back cover";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00447/Schliessenseite> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III Fore edge";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00448/Vordere_Innenseite> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III f. Vordere_Innenseite";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00449/Hintere_Innenseite> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III Rear paste-down";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00450/Kopfschnitt> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III Head";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-M-III/00451/Fussschnitt> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Wil M III Tail";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .

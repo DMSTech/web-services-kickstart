@@ -1,0 +1,1217 @@
+@base <> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dms: <http://dms.stanford.edu/ns/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://www.e-codices.unifr.ch/m3/zbs-SI-0251/manifest/NormalSequence>    rdf:first <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/V1>;
+   rdf:rest ( <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00001/V2> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00002/1r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00003/1v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00004/2r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00005/2v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00006/3r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00007/3v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00008/4r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00009/4v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00010/5r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00011/5v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00012/6r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00013/6v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00014/7r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00015/7v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00016/8r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00017/8v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00018/9r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00019/9v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00020/10r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00021/10v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00022/11r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00023/11v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00024/12r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00025/12v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00026/13r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00027/13v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00028/14r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00029/14v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00030/15r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00031/15v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00032/16r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00033/16v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00034/17r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00035/17v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00036/18r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00037/18v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00038/19r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00039/19v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00040/20r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00041/20v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00042/21r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00043/21v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00044/22r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00045/22v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00046/23r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00047/23v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00048/24r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00049/24v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00050/25r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00051/25v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00052/26r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00053/26v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00054/27r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00055/27v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00056/28r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00057/28v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00058/29r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00059/29v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00060/30r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00061/30v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00062/31r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00063/31v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00064/32r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00065/32v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00066/33r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00067/33v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00068/34r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00069/34v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00070/35r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00071/35v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00072/36r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00073/36v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00074/37r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00075/37v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00076/38r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00077/38v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00078/39r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00079/39v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00080/40r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00081/40v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00082/41r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00083/41v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00084/42r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00085/42v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00086/43r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00087/43v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00088/44r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00089/44v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00090/45r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00091/45v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00092/46r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00093/46v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00094/47r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00095/47v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00096/48r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00097/48v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00098/49r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00099/49v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00100/50r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00101/50v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00102/51r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00103/51v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00104/52r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00105/52v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00106/53r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00107/53v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00108/54r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00109/54v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00110/55r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00111/55v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00112/56r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00113/56v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00114/57r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00115/57v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00116/58r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00117/58v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00118/59r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00119/59v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00120/60r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00121/60v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00122/61r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00123/61v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00124/62r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00125/62v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00126/63r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00127/63v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00128/64r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00129/64v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00130/65r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00131/65v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00132/66r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00133/66v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00134/67r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00135/67v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00136/68r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00137/68v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00138/69r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00139/69v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00140/70r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00141/70v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00142/71r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00143/71v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00144/72r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00145/72v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00146/73r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00147/73v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00148/74r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00149/74v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00150/75r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00151/75v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00152/76r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00153/76v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00154/77r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00155/77v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00156/78r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00157/78v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00158/79r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00159/79v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00160/80r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00161/80v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00162/81r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00163/81v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00164/82r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00165/82v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00166/83r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00167/83v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00168/84r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00169/84v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00170/85r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00171/85v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00172/86r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00173/86v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00174/87r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00175/87v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00176/88r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00177/88v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00178/89r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00179/89v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00180/90r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00181/90v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00182/91r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00183/91v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00184/92r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00185/92v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00186/93r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00187/93v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00188/94r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00189/94v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00190/95r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00191/95v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00192/96r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00193/96v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00194/97r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00195/97v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00196/98r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00197/98v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00198/99r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00199/99v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00200/100r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00201/100v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00202/101r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00203/101v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00204/102r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00205/102v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00206/103r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00207/103v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00208/104r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00209/104v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00210/105r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00211/105v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00212/106r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00213/106v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00214/107r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00215/107v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00216/108r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00217/108v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00218/109r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00219/109v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00220/110r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00221/110v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00222/111r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00223/111v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00224/N1> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00225/N2> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00226/N3> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00227/N4> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00228/Massstab> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00229/Massstab> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00230/Profil> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00231/Profil> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00232/Profil> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00233/Vorderseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00234/Buchrücken> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00235/Rückseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00236/Schliessenseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00237/Vordere_Innenseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00238/Hintere_Innenseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00239/Kopfschnitt> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00240/Fussschnitt> ) ;
+   ore:aggregates <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00001/V1>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00002/V2>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00003/1r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00004/1v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00005/2r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00006/2v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00007/3r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00008/3v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00009/4r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00010/4v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00011/5r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00012/5v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00013/6r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00014/6v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00015/7r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00016/7v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00017/8r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00018/8v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00019/9r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00020/9v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00021/10r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00022/10v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00023/11r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00024/11v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00025/12r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00026/12v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00027/13r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00028/13v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00029/14r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00030/14v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00031/15r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00032/15v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00033/16r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00034/16v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00035/17r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00036/17v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00037/18r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00038/18v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00039/19r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00040/19v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00041/20r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00042/20v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00043/21r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00044/21v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00045/22r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00046/22v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00047/23r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00048/23v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00049/24r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00050/24v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00051/25r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00052/25v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00053/26r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00054/26v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00055/27r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00056/27v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00057/28r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00058/28v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00059/29r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00060/29v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00061/30r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00062/30v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00063/31r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00064/31v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00065/32r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00066/32v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00067/33r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00068/33v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00069/34r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00070/34v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00071/35r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00072/35v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00073/36r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00074/36v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00075/37r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00076/37v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00077/38r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00078/38v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00079/39r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00080/39v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00081/40r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00082/40v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00083/41r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00084/41v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00085/42r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00086/42v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00087/43r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00088/43v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00089/44r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00090/44v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00091/45r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00092/45v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00093/46r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00094/46v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00095/47r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00096/47v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00097/48r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00098/48v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00099/49r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00100/49v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00101/50r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00102/50v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00103/51r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00104/51v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00105/52r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00106/52v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00107/53r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00108/53v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00109/54r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00110/54v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00111/55r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00112/55v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00113/56r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00114/56v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00115/57r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00116/57v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00117/58r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00118/58v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00119/59r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00120/59v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00121/60r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00122/60v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00123/61r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00124/61v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00125/62r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00126/62v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00127/63r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00128/63v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00129/64r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00130/64v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00131/65r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00132/65v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00133/66r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00134/66v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00135/67r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00136/67v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00137/68r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00138/68v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00139/69r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00140/69v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00141/70r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00142/70v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00143/71r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00144/71v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00145/72r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00146/72v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00147/73r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00148/73v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00149/74r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00150/74v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00151/75r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00152/75v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00153/76r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00154/76v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00155/77r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00156/77v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00157/78r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00158/78v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00159/79r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00160/79v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00161/80r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00162/80v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00163/81r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00164/81v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00165/82r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00166/82v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00167/83r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00168/83v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00169/84r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00170/84v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00171/85r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00172/85v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00173/86r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00174/86v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00175/87r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00176/87v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00177/88r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00178/88v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00179/89r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00180/89v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00181/90r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00182/90v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00183/91r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00184/91v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00185/92r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00186/92v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00187/93r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00188/93v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00189/94r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00190/94v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00191/95r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00192/95v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00193/96r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00194/96v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00195/97r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00196/97v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00197/98r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00198/98v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00199/99r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00200/99v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00201/100r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00202/100v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00203/101r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00204/101v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00205/102r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00206/102v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00207/103r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00208/103v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00209/104r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00210/104v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00211/105r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00212/105v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00213/106r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00214/106v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00215/107r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00216/107v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00217/108r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00218/108v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00219/109r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00220/109v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00221/110r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00222/110v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00223/111r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00224/111v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00225/N1>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00226/N2>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00227/N3>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00228/N4>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00229/Massstab>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00230/Massstab>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00231/Profil>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00232/Profil>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00233/Profil>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00234/Vorderseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00235/Buchrücken>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00236/Rückseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00237/Schliessenseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00238/Vordere_Innenseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00239/Hintere_Innenseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00240/Kopfschnitt>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00241/Fussschnitt>;
+   a dms:sequence,
+   ore:aggregation,
+   rdf:List .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00001/V1> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. V1";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00002/V2> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. V2";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00003/1r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 1r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00004/1v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 1v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00005/2r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 2r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00006/2v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 2v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00007/3r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 3r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00008/3v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 3v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00009/4r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 4r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00010/4v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 4v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00011/5r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 5r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00012/5v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 5v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00013/6r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 6r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00014/6v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 6v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00015/7r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 7r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00016/7v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 7v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00017/8r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 8r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00018/8v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 8v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00019/9r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 9r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00020/9v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 9v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00021/10r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 10r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00022/10v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 10v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00023/11r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 11r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00024/11v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 11v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00025/12r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 12r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00026/12v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 12v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00027/13r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 13r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00028/13v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 13v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00029/14r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 14r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00030/14v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 14v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00031/15r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 15r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00032/15v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 15v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00033/16r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 16r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00034/16v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 16v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00035/17r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 17r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00036/17v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 17v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00037/18r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 18r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00038/18v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 18v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00039/19r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 19r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00040/19v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 19v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00041/20r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 20r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00042/20v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 20v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00043/21r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 21r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00044/21v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 21v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00045/22r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 22r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00046/22v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 22v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00047/23r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 23r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00048/23v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 23v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00049/24r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 24r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00050/24v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 24v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00051/25r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 25r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00052/25v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 25v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00053/26r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 26r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00054/26v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 26v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00055/27r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 27r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00056/27v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 27v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00057/28r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 28r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00058/28v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 28v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00059/29r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 29r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00060/29v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 29v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00061/30r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 30r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00062/30v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 30v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00063/31r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 31r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00064/31v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 31v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00065/32r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 32r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00066/32v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 32v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00067/33r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 33r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00068/33v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 33v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00069/34r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 34r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00070/34v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 34v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00071/35r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 35r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00072/35v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 35v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00073/36r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 36r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00074/36v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 36v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00075/37r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 37r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00076/37v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 37v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00077/38r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 38r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00078/38v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 38v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00079/39r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 39r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00080/39v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 39v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00081/40r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 40r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00082/40v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 40v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00083/41r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 41r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00084/41v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 41v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00085/42r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 42r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00086/42v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 42v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00087/43r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 43r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00088/43v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 43v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00089/44r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 44r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00090/44v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 44v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00091/45r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 45r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00092/45v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 45v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00093/46r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 46r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00094/46v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 46v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00095/47r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 47r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00096/47v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 47v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00097/48r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 48r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00098/48v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 48v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00099/49r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 49r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00100/49v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 49v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00101/50r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 50r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00102/50v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 50v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00103/51r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 51r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00104/51v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 51v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00105/52r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 52r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00106/52v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 52v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00107/53r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 53r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00108/53v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 53v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00109/54r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 54r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00110/54v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 54v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00111/55r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 55r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00112/55v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 55v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00113/56r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 56r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00114/56v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 56v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00115/57r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 57r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00116/57v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 57v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00117/58r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 58r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00118/58v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 58v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00119/59r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 59r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00120/59v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 59v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00121/60r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 60r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00122/60v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 60v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00123/61r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 61r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00124/61v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 61v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00125/62r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 62r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00126/62v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 62v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00127/63r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 63r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00128/63v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 63v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00129/64r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 64r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00130/64v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 64v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00131/65r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 65r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00132/65v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 65v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00133/66r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 66r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00134/66v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 66v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00135/67r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 67r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00136/67v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 67v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00137/68r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 68r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00138/68v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 68v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00139/69r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 69r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00140/69v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 69v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00141/70r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 70r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00142/70v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 70v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00143/71r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 71r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00144/71v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 71v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00145/72r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 72r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00146/72v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 72v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00147/73r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 73r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00148/73v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 73v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00149/74r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 74r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00150/74v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 74v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00151/75r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 75r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00152/75v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 75v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00153/76r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 76r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00154/76v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 76v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00155/77r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 77r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00156/77v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 77v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00157/78r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 78r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00158/78v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 78v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00159/79r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 79r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00160/79v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 79v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00161/80r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 80r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00162/80v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 80v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00163/81r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 81r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00164/81v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 81v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00165/82r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 82r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00166/82v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 82v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00167/83r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 83r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00168/83v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 83v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00169/84r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 84r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00170/84v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 84v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00171/85r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 85r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00172/85v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 85v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00173/86r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 86r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00174/86v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 86v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00175/87r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 87r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00176/87v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 87v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00177/88r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 88r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00178/88v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 88v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00179/89r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 89r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00180/89v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 89v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00181/90r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 90r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00182/90v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 90v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00183/91r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 91r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00184/91v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 91v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00185/92r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 92r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00186/92v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 92v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00187/93r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 93r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00188/93v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 93v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00189/94r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 94r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00190/94v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 94v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00191/95r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 95r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00192/95v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 95v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00193/96r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 96r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00194/96v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 96v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00195/97r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 97r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00196/97v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 97v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00197/98r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 98r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00198/98v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 98v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00199/99r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 99r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00200/99v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 99v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00201/100r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 100r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00202/100v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 100v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00203/101r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 101r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00204/101v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 101v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00205/102r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 102r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00206/102v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 102v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00207/103r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 103r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00208/103v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 103v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00209/104r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 104r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00210/104v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 104v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00211/105r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 105r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00212/105v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 105v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00213/106r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 106r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00214/106v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 106v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00215/107r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 107r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00216/107v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 107v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00217/108r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 108r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00218/108v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 108v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00219/109r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 109r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00220/109v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 109v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00221/110r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 110r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00222/110v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 110v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00223/111r> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 111r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00224/111v> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. 111v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00225/N1> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. N1";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00226/N2> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. N2";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00227/N3> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. N3";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00228/N4> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 f. N4";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00229/Massstab> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 Ruler";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00230/Massstab> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 Ruler";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00231/Profil> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 Color profile";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00232/Profil> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 Color profile";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00233/Profil> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 Color profile";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00234/Vorderseite> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 Front cover";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00235/Buchrücken> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 Spine";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00236/Rückseite> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 Back cover";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00237/Schliessenseite> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 Fore edge";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00238/Vordere_Innenseite> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 Front paste-down";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00239/Hintere_Innenseite> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 Rear paste-down";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00240/Kopfschnitt> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 Head";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-SI-0251/00241/Fussschnitt> dc:title "Solothurn, Zentralbibliothek, Cod. S I 251 Tail";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .

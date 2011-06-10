@@ -1,0 +1,1362 @@
+@base <> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dms: <http://dms.stanford.edu/ns/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://www.e-codices.unifr.ch/m3/kaw-Urbar/manifest/NormalSequence>    rdf:first <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/1r>;
+   rdf:rest ( <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00001/1v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00002/2r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00003/2v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00004/3r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00005/3v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00006/4r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00007/4v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00008/5r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00009/5v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00010/6r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00011/6v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00012/7r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00013/7v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00014/8r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00015/8v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00016/9r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00017/9v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00018/10r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00019/10v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00020/11r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00021/11v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00022/12r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00023/12v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00024/13r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00025/13v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00026/14r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00027/14v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00028/15r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00029/15v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00030/16r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00031/16v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00032/17r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00033/17v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00034/18r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00035/18v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00036/19r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00037/19v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00038/20r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00039/20v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00040/21r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00041/21v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00042/22r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00043/22v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00044/23r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00045/23v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00046/24r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00047/24v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00048/25r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00049/25v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00050/26r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00051/26v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00052/27r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00053/27v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00054/28r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00055/28v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00056/29r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00057/29v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00058/30r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00059/30v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00060/31r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00061/31v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00062/32r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00063/32v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00064/33r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00065/33v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00066/34r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00067/34v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00068/35r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00069/35v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00070/36r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00071/36v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00072/37r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00073/37v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00074/38r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00075/38v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00076/39r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00077/39v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00078/40r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00079/40v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00080/41r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00081/41v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00082/42r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00083/42v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00084/43r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00085/43v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00086/44r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00087/44v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00088/45r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00089/45v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00090/46r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00091/46v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00092/47r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00093/47v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00094/48r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00095/48v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00096/49r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00097/49v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00098/50r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00099/50v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00100/51r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00101/51v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00102/52r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00103/52v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00104/53r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00105/53v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00106/54r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00107/54v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00108/55r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00109/55v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00110/56r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00111/56v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00112/57r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00113/57v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00114/58r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00115/58v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00116/59r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00117/59v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00118/60r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00119/60v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00120/61r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00121/61v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00122/62r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00123/62v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00124/63r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00125/63v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00126/64r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00127/64v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00128/65r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00129/65v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00130/66r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00131/66v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00132/67r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00133/67v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00134/68r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00135/68v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00136/69r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00137/69v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00138/70r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00139/70v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00140/71r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00141/71v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00142/72r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00143/72v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00144/73r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00145/73v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00146/74r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00147/74v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00148/75r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00149/75v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00150/76r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00151/76v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00152/77r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00153/77v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00154/78r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00155/78v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00156/79r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00157/79v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00158/80r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00159/80v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00160/81r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00161/81v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00162/82r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00163/82v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00164/83r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00165/83v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00166/84aar> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00167/84aav> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00168/84abr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00169/84abv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00170/84ar> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00171/84av> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00172/84br> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00173/84bv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00174/84cr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00175/84cv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00176/84dr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00177/84dv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00178/84er> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00179/84ev> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00180/84fr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00181/84fv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00182/84gr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00183/84gv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00184/84hr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00185/84hv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00186/84ir> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00187/84iv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00188/84jr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00189/84jv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00190/84kr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00191/84kv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00192/84lr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00193/84lv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00194/84mr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00195/84mv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00196/84nr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00197/84nv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00198/84or> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00199/84ov> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00200/84pr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00201/84pv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00202/84qr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00203/84qv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00204/84r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00205/84rr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00206/84rv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00207/84sr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00208/84sv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00209/84tr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00210/84tv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00211/84ur> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00212/84uv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00213/84v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00214/84vr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00215/84vv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00216/84wr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00217/84wv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00218/84xr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00219/84xv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00220/84yr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00221/84yv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00222/84zr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00223/84zv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00224/N1> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00225/N27> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00226/N28> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00227/N29> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00228/N30> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00229/N31> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00230/N32> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00231/N2> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00232/N3> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00233/N4> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00234/N5> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00235/N6> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00236/N7> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00237/N8> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00238/N9> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00239/N10> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00240/N11> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00241/N12> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00242/N13> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00243/N14> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00244/N15> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00245/N16> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00246/N17> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00247/N18> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00248/N19> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00249/N20> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00250/N21> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00251/N22> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00252/N23> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00253/N24> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00254/N25> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00255/N26> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00256/Massstab> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00257/Massstab> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00258/Profil> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00259/Profil> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00260/Profil> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00261/Vorderseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00262/Buchrücken> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00263/Rückseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00264/Schliessenseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00265/Vordere_Innenseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00266/Hintere_Innenseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00267/Hintere_Innenseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00268/Kopfschnitt> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00269/Fussschnitt> ) ;
+   ore:aggregates <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00001/1r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00002/1v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00003/2r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00004/2v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00005/3r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00006/3v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00007/4r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00008/4v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00009/5r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00010/5v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00011/6r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00012/6v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00013/7r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00014/7v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00015/8r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00016/8v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00017/9r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00018/9v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00019/10r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00020/10v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00021/11r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00022/11v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00023/12r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00024/12v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00025/13r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00026/13v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00027/14r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00028/14v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00029/15r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00030/15v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00031/16r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00032/16v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00033/17r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00034/17v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00035/18r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00036/18v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00037/19r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00038/19v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00039/20r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00040/20v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00041/21r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00042/21v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00043/22r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00044/22v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00045/23r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00046/23v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00047/24r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00048/24v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00049/25r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00050/25v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00051/26r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00052/26v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00053/27r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00054/27v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00055/28r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00056/28v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00057/29r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00058/29v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00059/30r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00060/30v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00061/31r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00062/31v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00063/32r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00064/32v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00065/33r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00066/33v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00067/34r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00068/34v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00069/35r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00070/35v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00071/36r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00072/36v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00073/37r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00074/37v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00075/38r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00076/38v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00077/39r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00078/39v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00079/40r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00080/40v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00081/41r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00082/41v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00083/42r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00084/42v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00085/43r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00086/43v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00087/44r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00088/44v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00089/45r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00090/45v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00091/46r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00092/46v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00093/47r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00094/47v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00095/48r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00096/48v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00097/49r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00098/49v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00099/50r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00100/50v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00101/51r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00102/51v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00103/52r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00104/52v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00105/53r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00106/53v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00107/54r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00108/54v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00109/55r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00110/55v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00111/56r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00112/56v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00113/57r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00114/57v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00115/58r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00116/58v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00117/59r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00118/59v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00119/60r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00120/60v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00121/61r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00122/61v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00123/62r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00124/62v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00125/63r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00126/63v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00127/64r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00128/64v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00129/65r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00130/65v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00131/66r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00132/66v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00133/67r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00134/67v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00135/68r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00136/68v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00137/69r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00138/69v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00139/70r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00140/70v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00141/71r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00142/71v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00143/72r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00144/72v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00145/73r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00146/73v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00147/74r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00148/74v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00149/75r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00150/75v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00151/76r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00152/76v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00153/77r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00154/77v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00155/78r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00156/78v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00157/79r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00158/79v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00159/80r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00160/80v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00161/81r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00162/81v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00163/82r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00164/82v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00165/83r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00166/83v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00167/84aar>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00168/84aav>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00169/84abr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00170/84abv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00171/84ar>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00172/84av>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00173/84br>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00174/84bv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00175/84cr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00176/84cv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00177/84dr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00178/84dv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00179/84er>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00180/84ev>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00181/84fr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00182/84fv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00183/84gr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00184/84gv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00185/84hr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00186/84hv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00187/84ir>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00188/84iv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00189/84jr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00190/84jv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00191/84kr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00192/84kv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00193/84lr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00194/84lv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00195/84mr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00196/84mv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00197/84nr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00198/84nv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00199/84or>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00200/84ov>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00201/84pr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00202/84pv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00203/84qr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00204/84qv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00205/84r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00206/84rr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00207/84rv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00208/84sr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00209/84sv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00210/84tr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00211/84tv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00212/84ur>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00213/84uv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00214/84v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00215/84vr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00216/84vv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00217/84wr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00218/84wv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00219/84xr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00220/84xv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00221/84yr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00222/84yv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00223/84zr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00224/84zv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00225/N1>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00226/N27>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00227/N28>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00228/N29>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00229/N30>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00230/N31>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00231/N32>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00232/N2>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00233/N3>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00234/N4>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00235/N5>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00236/N6>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00237/N7>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00238/N8>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00239/N9>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00240/N10>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00241/N11>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00242/N12>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00243/N13>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00244/N14>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00245/N15>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00246/N16>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00247/N17>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00248/N18>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00249/N19>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00250/N20>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00251/N21>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00252/N22>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00253/N23>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00254/N24>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00255/N25>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00256/N26>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00257/Massstab>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00258/Massstab>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00259/Profil>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00260/Profil>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00261/Profil>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00262/Vorderseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00263/Buchrücken>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00264/Rückseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00265/Schliessenseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00266/Vordere_Innenseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00267/Hintere_Innenseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00268/Hintere_Innenseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00269/Kopfschnitt>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00270/Fussschnitt>;
+   a dms:sequence,
+   ore:aggregation,
+   rdf:List .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00001/1r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 1r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00002/1v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 1v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00003/2r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 2r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00004/2v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 2v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00005/3r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 3r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00006/3v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 3v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00007/4r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 4r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00008/4v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 4v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00009/5r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 5r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00010/5v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 5v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00011/6r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 6r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00012/6v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 6v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00013/7r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 7r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00014/7v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 7v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00015/8r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 8r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00016/8v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 8v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00017/9r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 9r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00018/9v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 9v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00019/10r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 10r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00020/10v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 10v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00021/11r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 11r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00022/11v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 11v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00023/12r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 12r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00024/12v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 12v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00025/13r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 13r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00026/13v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 13v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00027/14r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 14r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00028/14v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 14v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00029/15r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 15r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00030/15v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 15v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00031/16r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 16r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00032/16v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 16v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00033/17r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 17r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00034/17v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 17v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00035/18r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 18r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00036/18v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 18v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00037/19r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 19r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00038/19v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 19v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00039/20r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 20r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00040/20v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 20v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00041/21r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 21r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00042/21v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 21v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00043/22r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 22r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00044/22v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 22v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00045/23r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 23r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00046/23v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 23v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00047/24r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 24r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00048/24v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 24v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00049/25r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 25r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00050/25v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 25v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00051/26r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 26r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00052/26v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 26v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00053/27r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 27r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00054/27v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 27v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00055/28r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 28r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00056/28v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 28v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00057/29r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 29r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00058/29v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 29v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00059/30r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 30r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00060/30v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 30v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00061/31r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 31r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00062/31v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 31v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00063/32r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 32r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00064/32v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 32v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00065/33r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 33r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00066/33v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 33v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00067/34r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 34r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00068/34v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 34v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00069/35r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 35r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00070/35v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 35v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00071/36r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 36r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00072/36v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 36v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00073/37r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 37r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00074/37v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 37v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00075/38r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 38r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00076/38v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 38v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00077/39r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 39r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00078/39v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 39v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00079/40r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 40r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00080/40v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 40v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00081/41r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 41r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00082/41v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 41v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00083/42r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 42r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00084/42v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 42v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00085/43r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 43r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00086/43v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 43v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00087/44r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 44r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00088/44v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 44v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00089/45r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 45r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00090/45v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 45v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00091/46r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 46r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00092/46v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 46v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00093/47r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 47r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00094/47v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 47v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00095/48r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 48r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00096/48v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 48v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00097/49r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 49r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00098/49v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 49v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00099/50r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 50r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00100/50v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 50v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00101/51r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 51r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00102/51v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 51v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00103/52r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 52r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00104/52v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 52v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00105/53r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 53r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00106/53v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 53v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00107/54r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 54r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00108/54v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 54v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00109/55r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 55r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00110/55v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 55v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00111/56r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 56r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00112/56v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 56v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00113/57r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 57r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00114/57v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 57v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00115/58r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 58r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00116/58v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 58v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00117/59r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 59r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00118/59v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 59v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00119/60r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 60r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00120/60v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 60v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00121/61r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 61r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00122/61v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 61v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00123/62r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 62r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00124/62v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 62v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00125/63r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 63r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00126/63v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 63v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00127/64r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 64r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00128/64v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 64v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00129/65r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 65r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00130/65v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 65v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00131/66r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 66r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00132/66v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 66v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00133/67r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 67r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00134/67v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 67v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00135/68r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 68r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00136/68v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 68v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00137/69r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 69r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00138/69v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 69v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00139/70r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 70r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00140/70v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 70v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00141/71r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 71r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00142/71v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 71v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00143/72r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 72r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00144/72v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 72v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00145/73r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 73r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00146/73v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 73v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00147/74r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 74r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00148/74v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 74v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00149/75r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 75r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00150/75v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 75v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00151/76r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 76r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00152/76v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 76v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00153/77r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 77r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00154/77v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 77v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00155/78r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 78r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00156/78v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 78v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00157/79r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 79r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00158/79v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 79v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00159/80r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 80r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00160/80v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 80v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00161/81r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 81r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00162/81v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 81v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00163/82r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 82r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00164/82v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 82v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00165/83r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 83r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00166/83v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 83v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00167/84aar> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84aar";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00168/84aav> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84aav";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00169/84abr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84abr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00170/84abv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84abv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00171/84ar> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84ar";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00172/84av> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84av";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00173/84br> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84br";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00174/84bv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84bv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00175/84cr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84cr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00176/84cv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84cv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00177/84dr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84dr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00178/84dv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84dv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00179/84er> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84er";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00180/84ev> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84ev";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00181/84fr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84fr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00182/84fv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84fv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00183/84gr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84gr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00184/84gv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84gv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00185/84hr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84hr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00186/84hv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84hv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00187/84ir> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84ir";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00188/84iv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84iv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00189/84jr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84jr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00190/84jv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84jv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00191/84kr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84kr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00192/84kv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84kv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00193/84lr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84lr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00194/84lv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84lv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00195/84mr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84mr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00196/84mv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84mv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00197/84nr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84nr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00198/84nv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84nv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00199/84or> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84or";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00200/84ov> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84ov";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00201/84pr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84pr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00202/84pv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84pv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00203/84qr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84qr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00204/84qv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84qv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00205/84r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00206/84rr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84rr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00207/84rv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84rv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00208/84sr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84sr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00209/84sv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84sv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00210/84tr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84tr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00211/84tv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84tv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00212/84ur> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84ur";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00213/84uv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84uv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00214/84v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00215/84vr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84vr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00216/84vv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84vv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00217/84wr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84wr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00218/84wv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84wv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00219/84xr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84xr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00220/84xv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84xv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00221/84yr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84yr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00222/84yv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84yv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00223/84zr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84zr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00224/84zv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. 84zv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00225/N1> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N1";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00226/N27> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N27";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00227/N28> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N28";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00228/N29> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N29";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00229/N30> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N30";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00230/N31> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N31";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00231/N32> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N32";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00232/N2> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N2";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00233/N3> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N3";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00234/N4> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N4";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00235/N5> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N5";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00236/N6> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N6";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00237/N7> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N7";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00238/N8> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N8";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00239/N9> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N9";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00240/N10> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N10";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00241/N11> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N11";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00242/N12> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N12";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00243/N13> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N13";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00244/N14> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N14";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00245/N15> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N15";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00246/N16> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N16";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00247/N17> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N17";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00248/N18> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N18";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00249/N19> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N19";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00250/N20> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N20";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00251/N21> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N21";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00252/N22> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N22";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00253/N23> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N23";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00254/N24> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N24";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00255/N25> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N25";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00256/N26> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar f. N26";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00257/Massstab> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar Ruler";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00258/Massstab> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar Ruler";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00259/Profil> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar Color profile";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00260/Profil> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar Color profile";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00261/Profil> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar Color profile";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00262/Vorderseite> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar Front cover";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00263/Buchrücken> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar Spine";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00264/Rückseite> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar Back cover";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00265/Schliessenseite> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar Fore edge";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00266/Vordere_Innenseite> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar Front paste-down";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00267/Hintere_Innenseite> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar Rear paste-down";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00268/Hintere_Innenseite> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar Rear paste-down";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00269/Kopfschnitt> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar Head";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-Urbar/00270/Fussschnitt> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Urbar Tail";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .

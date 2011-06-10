@@ -1,0 +1,2592 @@
+@base <> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dms: <http://dms.stanford.edu/ns/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://www.e-codices.unifr.ch/m3/zbs-S-0458/manifest/NormalSequence>    rdf:first <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/1r>;
+   rdf:rest ( <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00001/1v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00002/2r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00003/3v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00004/4r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00005/4v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00006/5r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00007/5v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00008/6r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00009/6v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00010/7r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00011/7v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00012/8r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00013/8v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00014/9r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00015/9v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00016/10r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00017/10v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00018/11r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00019/11v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00020/12r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00021/12v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00022/13r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00023/13v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00024/14r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00025/14v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00026/15r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00027/15v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00028/16r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00029/16v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00030/17r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00031/17v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00032/18r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00033/18v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00034/19r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00035/19v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00036/20r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00037/20v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00038/21r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00039/21v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00040/22r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00041/22v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00042/23r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00043/23v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00044/24r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00045/24v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00046/25r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00047/25v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00048/26r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00049/26v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00050/27r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00051/27v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00052/28r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00053/28v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00054/29r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00055/29v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00056/30r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00057/30v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00058/31r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00059/31v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00060/32r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00061/32v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00062/33r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00063/33v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00064/34r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00065/34v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00066/35r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00067/35v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00068/36r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00069/36v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00070/37r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00071/37v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00072/38r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00073/38v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00074/39r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00075/39v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00076/40r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00077/40v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00078/41r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00079/41v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00080/42r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00081/42v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00082/43r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00083/43v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00084/44r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00085/44v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00086/45r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00087/45v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00088/46r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00089/46v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00090/47r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00091/47v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00092/48r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00093/48v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00094/49r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00095/49v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00096/50r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00097/50v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00098/51r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00099/51v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00100/52r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00101/52v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00102/53r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00103/53v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00104/54r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00105/54v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00106/55r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00107/55v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00108/56r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00109/56v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00110/57r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00111/57v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00112/58r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00113/58v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00114/59r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00115/59v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00116/60r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00117/60v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00118/61r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00119/61v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00120/62r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00121/62v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00122/63r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00123/63v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00124/64r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00125/64v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00126/65r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00127/65v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00128/66r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00129/66v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00130/67r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00131/67v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00132/68r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00133/68v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00134/69r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00135/69v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00136/70r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00137/70v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00138/71r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00139/71v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00140/72r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00141/72v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00142/73r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00143/73v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00144/74r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00145/74v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00146/75r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00147/75v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00148/76r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00149/76v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00150/77r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00151/77v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00152/78r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00153/78v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00154/79r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00155/79v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00156/80r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00157/80v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00158/81r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00159/81v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00160/82r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00161/82v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00162/83r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00163/83v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00164/84r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00165/84v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00166/85r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00167/85v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00168/86r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00169/86v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00170/87r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00171/87v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00172/88r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00173/88v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00174/89r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00175/89v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00176/90r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00177/90v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00178/91r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00179/91v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00180/92r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00181/92v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00182/93r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00183/93v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00184/94r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00185/94v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00186/95r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00187/95v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00188/96r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00189/96v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00190/97r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00191/97v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00192/98r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00193/98v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00194/99r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00195/99v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00196/100r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00197/100v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00198/101r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00199/101v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00200/102r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00201/102v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00202/103r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00203/103v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00204/104r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00205/104v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00206/105r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00207/105v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00208/106r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00209/106v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00210/107r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00211/107v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00212/108r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00213/108v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00214/109r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00215/109v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00216/110r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00217/110v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00218/111r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00219/111v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00220/112r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00221/112v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00222/113r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00223/113v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00224/114r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00225/114v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00226/115r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00227/115v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00228/116r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00229/116v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00230/117r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00231/117v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00232/118r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00233/118v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00234/119r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00235/119v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00236/120r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00237/120v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00238/121r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00239/121v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00240/122r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00241/122v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00242/123r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00243/123v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00244/124r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00245/124v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00246/125r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00247/125v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00248/126r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00249/126v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00250/127r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00251/127v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00252/128r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00253/128v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00254/129r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00255/129v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00256/130r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00257/130v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00258/131r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00259/131v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00260/132r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00261/132v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00262/133r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00263/133v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00264/134r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00265/134v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00266/135r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00267/135v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00268/136r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00269/136v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00270/137r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00271/137v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00272/138r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00273/138v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00274/139r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00275/139v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00276/140r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00277/140v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00278/141r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00279/141v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00280/142r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00281/142v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00282/143r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00283/143v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00284/144r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00285/144v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00286/145r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00287/145v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00288/146r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00289/146v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00290/147r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00291/147v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00292/148ar> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00293/148av> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00294/148r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00295/148v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00296/149r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00297/149v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00298/150r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00299/150v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00300/151r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00301/151v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00302/152r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00303/152v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00304/153r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00305/153v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00306/154r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00307/154v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00308/155r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00309/155v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00310/156r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00311/156v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00312/157r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00313/157v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00314/158r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00315/158v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00316/159r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00317/159v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00318/160r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00319/160v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00320/161r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00321/161v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00322/162r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00323/162v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00324/163r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00325/163v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00326/164r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00327/164v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00328/165r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00329/165v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00330/166r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00331/166v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00332/167r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00333/167v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00334/168r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00335/168v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00336/169r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00337/169v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00338/170r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00339/170v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00340/171r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00341/171v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00342/172r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00343/172v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00344/173r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00345/173v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00346/174r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00347/174v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00348/175r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00349/175v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00350/176r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00351/176v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00352/177r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00353/177v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00354/178r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00355/179r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00356/179v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00357/180r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00358/180v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00359/181r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00360/181v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00361/182r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00362/182v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00363/183r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00364/183v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00365/184r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00366/184v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00367/185r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00368/185v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00369/186r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00370/186v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00371/187r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00372/187v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00373/188r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00374/188v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00375/189r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00376/189v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00377/190r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00378/190v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00379/191r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00380/191v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00381/192r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00382/192v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00383/193r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00384/193v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00385/194r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00386/194v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00387/195r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00388/195v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00389/196r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00390/196v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00391/197r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00392/197v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00393/198r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00394/198v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00395/199r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00396/199v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00397/200r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00398/200v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00399/201r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00400/201v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00401/202r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00402/202v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00403/203r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00404/203v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00405/204r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00406/204v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00407/205r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00408/205v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00409/206r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00410/206v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00411/207r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00412/207v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00413/208r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00414/208v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00415/209r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00416/209v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00417/210r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00418/210v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00419/211r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00420/211v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00421/212r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00422/212v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00423/213r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00424/213v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00425/214r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00426/214v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00427/215r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00428/215v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00429/216r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00430/216v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00431/217r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00432/217v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00433/218r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00434/218v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00435/219r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00436/219v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00437/220r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00438/220v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00439/221r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00440/221v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00441/222r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00442/222v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00443/223r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00444/223v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00445/224r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00446/224v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00447/225r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00448/225v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00449/226r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00450/226v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00451/227r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00452/227v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00453/228r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00454/228v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00455/229r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00456/229v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00457/230r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00458/230v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00459/231r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00460/231v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00461/232r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00462/232v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00463/233r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00464/233v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00465/234r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00466/234v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00467/235r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00468/235v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00469/236r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00470/236v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00471/237r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00472/237v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00473/238r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00474/238v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00475/239r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00476/239v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00477/240r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00478/240v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00479/241r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00480/241v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00481/242r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00482/242v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00483/243r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00484/243v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00485/244r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00486/244v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00487/245r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00488/245v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00489/246r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00490/246v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00491/247r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00492/247v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00493/248r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00494/248v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00495/249r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00496/249v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00497/250r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00498/250v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00499/251r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00500/251v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00501/252r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00502/252v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00503/Massstab> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00504/Massstab> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00505/Profil> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00506/Profil> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00507/Profil> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00508/Vorderseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00509/Buchrücken> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00510/Rückseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00511/Schliessenseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00512/Vordere_Innenseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00513/Hintere_Innenseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00514/Kopfschnitt> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00515/Fussschnitt> ) ;
+   ore:aggregates <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00001/1r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00002/1v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00003/2r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00004/3v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00005/4r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00006/4v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00007/5r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00008/5v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00009/6r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00010/6v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00011/7r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00012/7v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00013/8r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00014/8v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00015/9r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00016/9v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00017/10r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00018/10v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00019/11r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00020/11v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00021/12r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00022/12v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00023/13r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00024/13v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00025/14r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00026/14v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00027/15r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00028/15v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00029/16r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00030/16v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00031/17r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00032/17v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00033/18r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00034/18v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00035/19r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00036/19v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00037/20r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00038/20v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00039/21r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00040/21v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00041/22r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00042/22v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00043/23r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00044/23v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00045/24r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00046/24v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00047/25r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00048/25v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00049/26r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00050/26v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00051/27r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00052/27v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00053/28r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00054/28v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00055/29r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00056/29v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00057/30r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00058/30v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00059/31r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00060/31v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00061/32r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00062/32v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00063/33r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00064/33v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00065/34r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00066/34v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00067/35r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00068/35v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00069/36r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00070/36v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00071/37r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00072/37v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00073/38r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00074/38v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00075/39r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00076/39v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00077/40r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00078/40v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00079/41r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00080/41v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00081/42r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00082/42v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00083/43r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00084/43v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00085/44r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00086/44v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00087/45r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00088/45v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00089/46r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00090/46v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00091/47r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00092/47v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00093/48r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00094/48v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00095/49r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00096/49v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00097/50r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00098/50v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00099/51r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00100/51v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00101/52r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00102/52v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00103/53r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00104/53v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00105/54r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00106/54v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00107/55r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00108/55v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00109/56r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00110/56v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00111/57r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00112/57v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00113/58r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00114/58v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00115/59r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00116/59v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00117/60r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00118/60v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00119/61r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00120/61v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00121/62r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00122/62v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00123/63r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00124/63v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00125/64r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00126/64v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00127/65r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00128/65v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00129/66r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00130/66v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00131/67r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00132/67v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00133/68r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00134/68v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00135/69r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00136/69v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00137/70r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00138/70v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00139/71r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00140/71v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00141/72r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00142/72v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00143/73r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00144/73v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00145/74r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00146/74v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00147/75r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00148/75v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00149/76r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00150/76v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00151/77r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00152/77v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00153/78r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00154/78v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00155/79r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00156/79v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00157/80r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00158/80v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00159/81r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00160/81v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00161/82r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00162/82v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00163/83r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00164/83v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00165/84r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00166/84v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00167/85r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00168/85v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00169/86r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00170/86v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00171/87r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00172/87v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00173/88r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00174/88v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00175/89r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00176/89v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00177/90r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00178/90v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00179/91r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00180/91v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00181/92r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00182/92v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00183/93r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00184/93v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00185/94r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00186/94v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00187/95r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00188/95v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00189/96r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00190/96v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00191/97r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00192/97v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00193/98r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00194/98v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00195/99r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00196/99v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00197/100r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00198/100v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00199/101r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00200/101v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00201/102r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00202/102v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00203/103r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00204/103v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00205/104r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00206/104v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00207/105r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00208/105v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00209/106r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00210/106v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00211/107r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00212/107v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00213/108r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00214/108v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00215/109r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00216/109v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00217/110r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00218/110v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00219/111r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00220/111v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00221/112r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00222/112v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00223/113r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00224/113v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00225/114r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00226/114v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00227/115r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00228/115v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00229/116r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00230/116v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00231/117r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00232/117v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00233/118r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00234/118v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00235/119r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00236/119v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00237/120r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00238/120v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00239/121r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00240/121v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00241/122r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00242/122v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00243/123r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00244/123v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00245/124r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00246/124v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00247/125r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00248/125v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00249/126r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00250/126v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00251/127r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00252/127v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00253/128r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00254/128v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00255/129r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00256/129v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00257/130r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00258/130v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00259/131r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00260/131v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00261/132r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00262/132v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00263/133r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00264/133v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00265/134r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00266/134v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00267/135r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00268/135v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00269/136r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00270/136v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00271/137r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00272/137v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00273/138r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00274/138v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00275/139r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00276/139v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00277/140r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00278/140v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00279/141r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00280/141v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00281/142r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00282/142v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00283/143r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00284/143v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00285/144r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00286/144v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00287/145r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00288/145v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00289/146r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00290/146v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00291/147r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00292/147v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00293/148ar>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00294/148av>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00295/148r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00296/148v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00297/149r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00298/149v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00299/150r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00300/150v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00301/151r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00302/151v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00303/152r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00304/152v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00305/153r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00306/153v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00307/154r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00308/154v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00309/155r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00310/155v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00311/156r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00312/156v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00313/157r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00314/157v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00315/158r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00316/158v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00317/159r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00318/159v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00319/160r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00320/160v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00321/161r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00322/161v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00323/162r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00324/162v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00325/163r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00326/163v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00327/164r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00328/164v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00329/165r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00330/165v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00331/166r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00332/166v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00333/167r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00334/167v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00335/168r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00336/168v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00337/169r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00338/169v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00339/170r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00340/170v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00341/171r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00342/171v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00343/172r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00344/172v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00345/173r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00346/173v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00347/174r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00348/174v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00349/175r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00350/175v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00351/176r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00352/176v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00353/177r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00354/177v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00355/178r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00356/179r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00357/179v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00358/180r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00359/180v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00360/181r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00361/181v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00362/182r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00363/182v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00364/183r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00365/183v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00366/184r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00367/184v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00368/185r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00369/185v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00370/186r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00371/186v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00372/187r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00373/187v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00374/188r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00375/188v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00376/189r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00377/189v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00378/190r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00379/190v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00380/191r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00381/191v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00382/192r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00383/192v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00384/193r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00385/193v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00386/194r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00387/194v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00388/195r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00389/195v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00390/196r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00391/196v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00392/197r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00393/197v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00394/198r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00395/198v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00396/199r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00397/199v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00398/200r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00399/200v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00400/201r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00401/201v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00402/202r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00403/202v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00404/203r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00405/203v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00406/204r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00407/204v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00408/205r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00409/205v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00410/206r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00411/206v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00412/207r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00413/207v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00414/208r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00415/208v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00416/209r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00417/209v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00418/210r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00419/210v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00420/211r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00421/211v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00422/212r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00423/212v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00424/213r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00425/213v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00426/214r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00427/214v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00428/215r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00429/215v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00430/216r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00431/216v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00432/217r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00433/217v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00434/218r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00435/218v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00436/219r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00437/219v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00438/220r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00439/220v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00440/221r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00441/221v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00442/222r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00443/222v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00444/223r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00445/223v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00446/224r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00447/224v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00448/225r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00449/225v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00450/226r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00451/226v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00452/227r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00453/227v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00454/228r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00455/228v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00456/229r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00457/229v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00458/230r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00459/230v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00460/231r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00461/231v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00462/232r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00463/232v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00464/233r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00465/233v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00466/234r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00467/234v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00468/235r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00469/235v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00470/236r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00471/236v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00472/237r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00473/237v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00474/238r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00475/238v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00476/239r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00477/239v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00478/240r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00479/240v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00480/241r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00481/241v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00482/242r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00483/242v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00484/243r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00485/243v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00486/244r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00487/244v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00488/245r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00489/245v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00490/246r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00491/246v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00492/247r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00493/247v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00494/248r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00495/248v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00496/249r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00497/249v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00498/250r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00499/250v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00500/251r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00501/251v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00502/252r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00503/252v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00504/Massstab>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00505/Massstab>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00506/Profil>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00507/Profil>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00508/Profil>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00509/Vorderseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00510/Buchrücken>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00511/Rückseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00512/Schliessenseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00513/Vordere_Innenseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00514/Hintere_Innenseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00515/Kopfschnitt>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00516/Fussschnitt>;
+   a dms:sequence,
+   ore:aggregation,
+   rdf:List .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00001/1r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 1r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00002/1v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 1v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00003/2r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 2r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00004/3v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 3v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00005/4r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 4r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00006/4v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 4v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00007/5r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 5r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00008/5v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 5v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00009/6r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 6r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00010/6v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 6v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00011/7r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 7r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00012/7v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 7v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00013/8r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 8r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00014/8v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 8v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00015/9r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 9r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00016/9v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 9v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00017/10r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 10r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00018/10v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 10v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00019/11r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 11r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00020/11v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 11v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00021/12r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 12r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00022/12v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 12v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00023/13r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 13r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00024/13v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 13v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00025/14r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 14r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00026/14v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 14v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00027/15r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 15r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00028/15v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 15v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00029/16r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 16r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00030/16v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 16v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00031/17r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 17r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00032/17v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 17v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00033/18r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 18r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00034/18v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 18v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00035/19r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 19r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00036/19v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 19v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00037/20r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 20r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00038/20v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 20v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00039/21r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 21r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00040/21v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 21v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00041/22r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 22r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00042/22v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 22v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00043/23r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 23r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00044/23v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 23v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00045/24r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 24r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00046/24v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 24v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00047/25r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 25r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00048/25v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 25v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00049/26r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 26r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00050/26v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 26v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00051/27r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 27r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00052/27v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 27v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00053/28r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 28r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00054/28v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 28v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00055/29r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 29r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00056/29v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 29v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00057/30r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 30r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00058/30v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 30v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00059/31r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 31r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00060/31v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 31v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00061/32r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 32r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00062/32v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 32v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00063/33r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 33r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00064/33v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 33v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00065/34r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 34r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00066/34v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 34v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00067/35r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 35r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00068/35v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 35v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00069/36r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 36r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00070/36v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 36v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00071/37r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 37r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00072/37v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 37v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00073/38r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 38r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00074/38v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 38v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00075/39r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 39r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00076/39v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 39v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00077/40r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 40r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00078/40v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 40v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00079/41r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 41r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00080/41v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 41v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00081/42r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 42r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00082/42v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 42v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00083/43r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 43r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00084/43v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 43v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00085/44r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 44r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00086/44v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 44v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00087/45r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 45r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00088/45v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 45v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00089/46r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 46r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00090/46v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 46v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00091/47r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 47r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00092/47v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 47v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00093/48r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 48r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00094/48v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 48v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00095/49r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 49r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00096/49v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 49v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00097/50r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 50r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00098/50v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 50v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00099/51r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 51r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00100/51v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 51v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00101/52r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 52r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00102/52v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 52v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00103/53r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 53r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00104/53v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 53v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00105/54r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 54r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00106/54v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 54v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00107/55r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 55r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00108/55v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 55v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00109/56r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 56r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00110/56v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 56v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00111/57r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 57r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00112/57v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 57v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00113/58r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 58r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00114/58v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 58v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00115/59r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 59r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00116/59v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 59v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00117/60r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 60r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00118/60v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 60v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00119/61r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 61r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00120/61v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 61v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00121/62r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 62r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00122/62v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 62v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00123/63r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 63r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00124/63v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 63v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00125/64r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 64r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00126/64v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 64v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00127/65r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 65r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00128/65v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 65v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00129/66r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 66r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00130/66v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 66v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00131/67r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 67r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00132/67v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 67v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00133/68r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 68r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00134/68v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 68v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00135/69r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 69r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00136/69v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 69v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00137/70r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 70r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00138/70v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 70v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00139/71r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 71r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00140/71v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 71v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00141/72r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 72r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00142/72v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 72v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00143/73r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 73r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00144/73v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 73v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00145/74r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 74r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00146/74v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 74v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00147/75r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 75r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00148/75v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 75v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00149/76r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 76r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00150/76v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 76v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00151/77r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 77r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00152/77v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 77v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00153/78r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 78r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00154/78v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 78v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00155/79r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 79r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00156/79v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 79v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00157/80r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 80r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00158/80v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 80v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00159/81r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 81r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00160/81v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 81v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00161/82r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 82r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00162/82v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 82v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00163/83r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 83r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00164/83v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 83v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00165/84r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 84r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00166/84v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 84v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00167/85r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 85r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00168/85v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 85v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00169/86r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 86r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00170/86v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 86v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00171/87r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 87r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00172/87v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 87v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00173/88r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 88r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00174/88v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 88v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00175/89r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 89r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00176/89v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 89v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00177/90r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 90r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00178/90v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 90v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00179/91r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 91r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00180/91v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 91v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00181/92r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 92r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00182/92v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 92v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00183/93r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 93r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00184/93v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 93v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00185/94r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 94r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00186/94v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 94v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00187/95r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 95r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00188/95v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 95v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00189/96r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 96r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00190/96v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 96v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00191/97r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 97r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00192/97v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 97v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00193/98r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 98r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00194/98v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 98v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00195/99r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 99r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00196/99v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 99v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00197/100r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 100r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00198/100v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 100v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00199/101r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 101r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00200/101v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 101v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00201/102r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 102r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00202/102v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 102v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00203/103r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 103r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00204/103v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 103v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00205/104r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 104r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00206/104v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 104v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00207/105r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 105r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00208/105v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 105v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00209/106r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 106r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00210/106v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 106v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00211/107r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 107r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00212/107v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 107v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00213/108r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 108r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00214/108v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 108v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00215/109r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 109r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00216/109v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 109v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00217/110r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 110r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00218/110v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 110v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00219/111r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 111r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00220/111v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 111v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00221/112r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 112r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00222/112v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 112v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00223/113r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 113r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00224/113v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 113v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00225/114r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 114r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00226/114v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 114v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00227/115r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 115r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00228/115v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 115v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00229/116r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 116r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00230/116v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 116v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00231/117r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 117r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00232/117v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 117v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00233/118r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 118r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00234/118v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 118v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00235/119r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 119r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00236/119v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 119v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00237/120r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 120r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00238/120v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 120v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00239/121r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 121r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00240/121v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 121v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00241/122r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 122r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00242/122v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 122v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00243/123r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 123r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00244/123v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 123v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00245/124r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 124r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00246/124v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 124v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00247/125r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 125r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00248/125v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 125v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00249/126r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 126r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00250/126v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 126v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00251/127r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 127r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00252/127v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 127v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00253/128r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 128r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00254/128v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 128v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00255/129r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 129r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00256/129v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 129v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00257/130r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 130r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00258/130v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 130v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00259/131r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 131r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00260/131v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 131v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00261/132r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 132r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00262/132v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 132v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00263/133r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 133r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00264/133v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 133v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00265/134r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 134r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00266/134v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 134v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00267/135r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 135r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00268/135v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 135v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00269/136r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 136r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00270/136v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 136v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00271/137r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 137r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00272/137v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 137v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00273/138r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 138r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00274/138v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 138v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00275/139r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 139r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00276/139v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 139v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00277/140r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 140r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00278/140v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 140v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00279/141r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 141r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00280/141v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 141v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00281/142r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 142r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00282/142v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 142v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00283/143r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 143r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00284/143v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 143v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00285/144r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 144r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00286/144v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 144v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00287/145r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 145r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00288/145v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 145v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00289/146r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 146r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00290/146v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 146v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00291/147r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 147r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00292/147v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 147v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00293/148ar> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 148ar";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00294/148av> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 148av";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00295/148r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 148r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00296/148v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 148v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00297/149r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 149r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00298/149v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 149v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00299/150r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 150r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00300/150v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 150v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00301/151r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 151r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00302/151v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 151v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00303/152r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 152r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00304/152v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 152v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00305/153r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 153r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00306/153v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 153v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00307/154r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 154r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00308/154v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 154v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00309/155r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 155r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00310/155v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 155v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00311/156r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 156r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00312/156v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 156v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00313/157r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 157r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00314/157v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 157v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00315/158r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 158r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00316/158v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 158v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00317/159r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 159r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00318/159v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 159v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00319/160r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 160r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00320/160v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 160v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00321/161r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 161r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00322/161v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 161v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00323/162r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 162r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00324/162v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 162v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00325/163r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 163r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00326/163v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 163v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00327/164r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 164r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00328/164v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 164v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00329/165r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 165r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00330/165v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 165v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00331/166r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 166r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00332/166v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 166v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00333/167r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 167r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00334/167v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 167v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00335/168r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 168r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00336/168v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 168v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00337/169r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 169r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00338/169v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 169v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00339/170r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 170r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00340/170v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 170v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00341/171r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 171r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00342/171v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 171v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00343/172r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 172r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00344/172v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 172v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00345/173r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 173r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00346/173v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 173v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00347/174r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 174r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00348/174v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 174v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00349/175r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 175r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00350/175v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 175v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00351/176r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 176r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00352/176v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 176v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00353/177r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 177r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00354/177v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 177v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00355/178r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 178r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00356/179r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 179r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00357/179v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 179v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00358/180r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 180r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00359/180v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 180v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00360/181r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 181r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00361/181v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 181v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00362/182r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 182r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00363/182v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 182v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00364/183r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 183r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00365/183v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 183v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00366/184r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 184r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00367/184v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 184v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00368/185r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 185r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00369/185v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 185v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00370/186r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 186r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00371/186v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 186v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00372/187r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 187r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00373/187v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 187v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00374/188r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 188r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00375/188v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 188v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00376/189r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 189r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00377/189v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 189v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00378/190r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 190r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00379/190v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 190v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00380/191r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 191r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00381/191v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 191v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00382/192r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 192r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00383/192v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 192v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00384/193r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 193r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00385/193v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 193v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00386/194r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 194r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00387/194v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 194v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00388/195r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 195r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00389/195v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 195v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00390/196r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 196r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00391/196v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 196v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00392/197r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 197r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00393/197v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 197v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00394/198r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 198r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00395/198v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 198v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00396/199r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 199r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00397/199v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 199v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00398/200r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 200r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00399/200v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 200v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00400/201r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 201r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00401/201v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 201v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00402/202r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 202r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00403/202v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 202v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00404/203r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 203r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00405/203v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 203v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00406/204r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 204r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00407/204v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 204v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00408/205r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 205r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00409/205v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 205v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00410/206r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 206r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00411/206v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 206v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00412/207r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 207r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00413/207v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 207v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00414/208r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 208r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00415/208v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 208v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00416/209r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 209r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00417/209v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 209v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00418/210r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 210r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00419/210v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 210v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00420/211r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 211r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00421/211v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 211v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00422/212r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 212r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00423/212v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 212v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00424/213r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 213r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00425/213v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 213v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00426/214r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 214r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00427/214v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 214v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00428/215r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 215r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00429/215v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 215v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00430/216r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 216r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00431/216v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 216v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00432/217r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 217r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00433/217v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 217v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00434/218r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 218r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00435/218v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 218v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00436/219r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 219r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00437/219v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 219v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00438/220r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 220r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00439/220v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 220v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00440/221r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 221r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00441/221v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 221v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00442/222r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 222r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00443/222v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 222v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00444/223r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 223r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00445/223v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 223v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00446/224r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 224r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00447/224v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 224v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00448/225r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 225r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00449/225v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 225v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00450/226r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 226r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00451/226v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 226v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00452/227r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 227r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00453/227v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 227v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00454/228r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 228r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00455/228v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 228v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00456/229r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 229r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00457/229v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 229v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00458/230r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 230r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00459/230v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 230v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00460/231r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 231r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00461/231v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 231v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00462/232r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 232r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00463/232v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 232v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00464/233r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 233r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00465/233v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 233v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00466/234r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 234r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00467/234v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 234v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00468/235r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 235r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00469/235v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 235v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00470/236r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 236r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00471/236v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 236v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00472/237r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 237r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00473/237v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 237v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00474/238r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 238r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00475/238v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 238v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00476/239r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 239r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00477/239v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 239v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00478/240r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 240r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00479/240v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 240v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00480/241r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 241r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00481/241v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 241v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00482/242r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 242r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00483/242v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 242v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00484/243r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 243r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00485/243v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 243v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00486/244r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 244r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00487/244v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 244v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00488/245r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 245r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00489/245v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 245v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00490/246r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 246r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00491/246v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 246v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00492/247r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 247r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00493/247v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 247v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00494/248r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 248r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00495/248v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 248v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00496/249r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 249r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00497/249v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 249v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00498/250r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 250r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00499/250v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 250v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00500/251r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 251r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00501/251v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 251v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00502/252r> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 252r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00503/252v> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 f. 252v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00504/Massstab> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 Ruler";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00505/Massstab> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 Ruler";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00506/Profil> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 Color profile";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00507/Profil> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 Color profile";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00508/Profil> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 Color profile";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00509/Vorderseite> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 Front cover";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00510/Buchrücken> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 Spine";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00511/Rückseite> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 Back cover";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00512/Schliessenseite> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 Fore edge";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00513/Vordere_Innenseite> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 Front paste-down";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00514/Hintere_Innenseite> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 Rear paste-down";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00515/Kopfschnitt> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 Head";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/zbs-S-0458/00516/Fussschnitt> dc:title "Solothurn, Zentralbibliothek, Cod. S 458 Tail";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .

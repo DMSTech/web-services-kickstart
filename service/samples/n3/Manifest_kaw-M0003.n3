@@ -1,0 +1,12 @@
+@base <> .
+@prefix dms: <http://dms.stanford.edu/ns/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+dms:Manifest ore:aggregates dms:ImageCollection,
+   dms:NormalSequence;
+   a ore:Aggregation .
+dms:ImageCollection a ore:Aggregation,
+   ore:List .
+dms:NormalSequence a ore:Aggregation,
+   ore:List .

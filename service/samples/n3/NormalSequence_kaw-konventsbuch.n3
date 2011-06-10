@@ -1,0 +1,1987 @@
+@base <> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dms: <http://dms.stanford.edu/ns/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://www.e-codices.unifr.ch/m3/kaw-konventsbuch/manifest/NormalSequence>    rdf:first <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/Ir>;
+   rdf:rest ( <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00001/Iv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00002/IIr> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00003/IIv> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00004/1r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00005/1v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00006/2r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00007/2v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00008/3r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00009/3v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00010/4r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00011/4v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00012/5r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00013/5v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00014/6r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00015/6v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00016/7r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00017/7v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00018/8r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00019/8v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00020/9r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00021/9v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00022/10r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00023/10v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00024/11r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00025/11v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00026/12r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00027/12v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00028/13r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00029/13v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00030/14r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00031/14v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00032/15r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00033/15v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00034/16r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00035/16v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00036/17r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00037/17v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00038/18r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00039/18v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00040/19r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00041/19v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00042/20r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00043/20v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00044/21r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00045/21v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00046/22r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00047/22v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00048/23r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00049/23v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00050/24r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00051/24v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00052/25r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00053/25v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00054/26r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00055/26v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00056/27r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00057/27v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00058/28r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00059/28v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00060/29r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00061/29v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00062/30r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00063/30v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00064/31r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00065/31v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00066/32r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00067/32v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00068/33r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00069/33v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00070/34r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00071/34v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00072/35r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00073/35v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00074/36r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00075/36v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00076/37r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00077/37v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00078/38r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00079/38v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00080/39r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00081/39v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00082/40r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00083/40v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00084/41r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00085/41v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00086/42r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00087/42v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00088/43r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00089/43v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00090/44r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00091/44v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00092/45r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00093/45v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00094/46r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00095/46v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00096/47r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00097/47v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00098/48r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00099/48v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00100/49r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00101/49v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00102/50r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00103/50v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00104/51r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00105/51v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00106/52r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00107/52v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00108/53r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00109/53v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00110/54r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00111/54v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00112/55r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00113/55v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00114/56r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00115/56v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00116/57r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00117/57v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00118/58r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00119/58v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00120/59r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00121/59v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00122/60r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00123/60v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00124/61r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00125/61v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00126/62r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00127/62v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00128/63r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00129/63v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00130/64r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00131/64v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00132/65r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00133/65v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00134/66r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00135/66v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00136/67r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00137/67v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00138/68r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00139/68v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00140/69r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00141/69v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00142/70r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00143/70v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00144/71r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00145/71v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00146/72r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00147/72v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00148/73r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00149/73v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00150/74r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00151/74v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00152/75r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00153/75v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00154/76r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00155/76v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00156/77r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00157/77v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00158/78r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00159/78v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00160/79r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00161/79v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00162/80r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00163/80v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00164/81r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00165/81v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00166/82r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00167/82v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00168/83r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00169/83v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00170/84r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00171/84v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00172/85r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00173/85v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00174/86r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00175/86v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00176/87r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00177/87v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00178/88r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00179/88v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00180/89r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00181/89v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00182/90r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00183/90v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00184/91r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00185/91v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00186/92r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00187/92v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00188/93r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00189/93v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00190/94r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00191/94v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00192/95r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00193/95v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00194/96r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00195/96v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00196/97r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00197/97v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00198/98r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00199/98v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00200/99r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00201/99v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00202/100r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00203/100v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00204/101r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00205/101v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00206/102r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00207/102v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00208/103r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00209/103v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00210/104r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00211/104v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00212/105r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00213/105v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00214/106r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00215/106v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00216/107r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00217/107v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00218/108r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00219/108v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00220/109r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00221/109v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00222/110r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00223/110v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00224/111r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00225/111v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00226/112r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00227/112v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00228/113r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00229/113v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00230/114r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00231/114v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00232/115r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00233/115v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00234/116r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00235/116v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00236/117r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00237/117v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00238/118r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00239/118v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00240/119r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00241/119v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00242/120r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00243/120v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00244/121r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00245/121v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00246/122r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00247/122v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00248/123r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00249/123v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00250/124r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00251/124v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00252/125r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00253/125v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00254/126r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00255/126v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00256/127r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00257/127v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00258/128r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00259/128v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00260/129r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00261/129v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00262/130r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00263/130v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00264/131r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00265/131v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00266/132r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00267/132v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00268/133r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00269/133v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00270/134r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00271/134v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00272/135r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00273/135v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00274/136r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00275/136v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00276/137r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00277/137v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00278/138r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00279/138v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00280/139r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00281/139v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00282/140r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00283/140v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00284/141r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00285/141v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00286/142r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00287/142v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00288/143r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00289/143v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00290/144r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00291/144v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00292/145r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00293/145v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00294/146r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00295/146v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00296/147r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00297/147v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00298/148r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00299/148v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00300/149r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00301/149v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00302/150r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00303/150v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00304/151r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00305/151v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00306/152r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00307/152v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00308/153r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00309/153v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00310/154r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00311/154v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00312/155r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00313/155v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00314/156r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00315/156v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00316/157r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00317/157v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00318/158r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00319/158v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00320/159r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00321/159v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00322/160r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00323/160v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00324/161r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00325/161v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00326/162r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00327/162v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00328/163r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00329/163v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00330/164r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00331/164v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00332/165r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00333/165v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00334/166r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00335/166v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00336/167r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00337/167v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00338/168r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00339/168v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00340/169r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00341/169v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00342/170r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00343/170v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00344/171r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00345/171v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00346/172r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00347/172v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00348/173r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00349/173v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00350/174r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00351/174v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00352/175r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00353/175v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00354/176r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00355/176v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00356/177ar> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00357/177av> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00358/177r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00359/177v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00360/178r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00361/178v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00362/179r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00363/179v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00364/180r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00365/180v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00366/181r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00367/181v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00368/182r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00369/182v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00370/183r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00371/183v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00372/184r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00373/184v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00374/185r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00375/185v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00376/186r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00377/186v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00378/187r> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00379/187v> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00380/N1> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00381/N2> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00382/Massstab> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00383/Massstab> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00384/Profil> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00385/Profil> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00386/Profil> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00387/Vorderseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00388/Buchrücken> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00389/Rückseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00390/Schliessenseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00391/Vordere_Innenseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00392/Hintere_Innenseite> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00393/Kopfschnitt> <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00394/Fussschnitt> ) ;
+   ore:aggregates <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00001/Ir>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00002/Iv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00003/IIr>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00004/IIv>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00005/1r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00006/1v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00007/2r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00008/2v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00009/3r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00010/3v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00011/4r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00012/4v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00013/5r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00014/5v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00015/6r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00016/6v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00017/7r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00018/7v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00019/8r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00020/8v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00021/9r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00022/9v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00023/10r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00024/10v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00025/11r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00026/11v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00027/12r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00028/12v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00029/13r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00030/13v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00031/14r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00032/14v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00033/15r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00034/15v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00035/16r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00036/16v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00037/17r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00038/17v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00039/18r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00040/18v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00041/19r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00042/19v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00043/20r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00044/20v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00045/21r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00046/21v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00047/22r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00048/22v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00049/23r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00050/23v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00051/24r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00052/24v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00053/25r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00054/25v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00055/26r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00056/26v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00057/27r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00058/27v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00059/28r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00060/28v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00061/29r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00062/29v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00063/30r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00064/30v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00065/31r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00066/31v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00067/32r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00068/32v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00069/33r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00070/33v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00071/34r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00072/34v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00073/35r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00074/35v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00075/36r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00076/36v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00077/37r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00078/37v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00079/38r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00080/38v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00081/39r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00082/39v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00083/40r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00084/40v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00085/41r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00086/41v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00087/42r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00088/42v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00089/43r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00090/43v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00091/44r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00092/44v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00093/45r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00094/45v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00095/46r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00096/46v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00097/47r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00098/47v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00099/48r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00100/48v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00101/49r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00102/49v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00103/50r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00104/50v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00105/51r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00106/51v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00107/52r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00108/52v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00109/53r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00110/53v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00111/54r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00112/54v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00113/55r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00114/55v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00115/56r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00116/56v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00117/57r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00118/57v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00119/58r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00120/58v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00121/59r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00122/59v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00123/60r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00124/60v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00125/61r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00126/61v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00127/62r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00128/62v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00129/63r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00130/63v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00131/64r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00132/64v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00133/65r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00134/65v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00135/66r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00136/66v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00137/67r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00138/67v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00139/68r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00140/68v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00141/69r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00142/69v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00143/70r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00144/70v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00145/71r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00146/71v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00147/72r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00148/72v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00149/73r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00150/73v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00151/74r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00152/74v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00153/75r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00154/75v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00155/76r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00156/76v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00157/77r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00158/77v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00159/78r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00160/78v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00161/79r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00162/79v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00163/80r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00164/80v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00165/81r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00166/81v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00167/82r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00168/82v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00169/83r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00170/83v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00171/84r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00172/84v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00173/85r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00174/85v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00175/86r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00176/86v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00177/87r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00178/87v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00179/88r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00180/88v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00181/89r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00182/89v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00183/90r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00184/90v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00185/91r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00186/91v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00187/92r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00188/92v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00189/93r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00190/93v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00191/94r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00192/94v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00193/95r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00194/95v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00195/96r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00196/96v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00197/97r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00198/97v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00199/98r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00200/98v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00201/99r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00202/99v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00203/100r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00204/100v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00205/101r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00206/101v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00207/102r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00208/102v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00209/103r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00210/103v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00211/104r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00212/104v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00213/105r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00214/105v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00215/106r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00216/106v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00217/107r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00218/107v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00219/108r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00220/108v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00221/109r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00222/109v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00223/110r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00224/110v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00225/111r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00226/111v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00227/112r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00228/112v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00229/113r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00230/113v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00231/114r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00232/114v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00233/115r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00234/115v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00235/116r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00236/116v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00237/117r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00238/117v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00239/118r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00240/118v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00241/119r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00242/119v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00243/120r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00244/120v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00245/121r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00246/121v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00247/122r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00248/122v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00249/123r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00250/123v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00251/124r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00252/124v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00253/125r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00254/125v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00255/126r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00256/126v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00257/127r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00258/127v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00259/128r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00260/128v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00261/129r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00262/129v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00263/130r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00264/130v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00265/131r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00266/131v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00267/132r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00268/132v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00269/133r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00270/133v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00271/134r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00272/134v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00273/135r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00274/135v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00275/136r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00276/136v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00277/137r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00278/137v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00279/138r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00280/138v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00281/139r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00282/139v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00283/140r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00284/140v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00285/141r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00286/141v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00287/142r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00288/142v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00289/143r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00290/143v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00291/144r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00292/144v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00293/145r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00294/145v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00295/146r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00296/146v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00297/147r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00298/147v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00299/148r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00300/148v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00301/149r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00302/149v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00303/150r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00304/150v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00305/151r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00306/151v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00307/152r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00308/152v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00309/153r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00310/153v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00311/154r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00312/154v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00313/155r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00314/155v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00315/156r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00316/156v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00317/157r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00318/157v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00319/158r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00320/158v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00321/159r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00322/159v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00323/160r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00324/160v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00325/161r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00326/161v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00327/162r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00328/162v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00329/163r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00330/163v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00331/164r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00332/164v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00333/165r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00334/165v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00335/166r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00336/166v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00337/167r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00338/167v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00339/168r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00340/168v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00341/169r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00342/169v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00343/170r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00344/170v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00345/171r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00346/171v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00347/172r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00348/172v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00349/173r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00350/173v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00351/174r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00352/174v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00353/175r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00354/175v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00355/176r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00356/176v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00357/177ar>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00358/177av>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00359/177r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00360/177v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00361/178r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00362/178v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00363/179r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00364/179v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00365/180r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00366/180v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00367/181r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00368/181v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00369/182r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00370/182v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00371/183r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00372/183v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00373/184r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00374/184v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00375/185r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00376/185v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00377/186r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00378/186v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00379/187r>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00380/187v>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00381/N1>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00382/N2>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00383/Massstab>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00384/Massstab>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00385/Profil>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00386/Profil>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00387/Profil>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00388/Vorderseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00389/Buchrücken>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00390/Rückseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00391/Schliessenseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00392/Vordere_Innenseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00393/Hintere_Innenseite>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00394/Kopfschnitt>,
+   <http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00395/Fussschnitt>;
+   a dms:sequence,
+   ore:aggregation,
+   rdf:List .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00001/Ir> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. Ir";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00002/Iv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. Iv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00003/IIr> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. IIr";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00004/IIv> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. IIv";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00005/1r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 1r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00006/1v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 1v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00007/2r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 2r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00008/2v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 2v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00009/3r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 3r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00010/3v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 3v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00011/4r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 4r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00012/4v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 4v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00013/5r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 5r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00014/5v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 5v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00015/6r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 6r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00016/6v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 6v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00017/7r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 7r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00018/7v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 7v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00019/8r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 8r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00020/8v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 8v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00021/9r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 9r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00022/9v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 9v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00023/10r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 10r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00024/10v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 10v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00025/11r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 11r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00026/11v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 11v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00027/12r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 12r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00028/12v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 12v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00029/13r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 13r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00030/13v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 13v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00031/14r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 14r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00032/14v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 14v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00033/15r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 15r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00034/15v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 15v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00035/16r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 16r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00036/16v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 16v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00037/17r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 17r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00038/17v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 17v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00039/18r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 18r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00040/18v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 18v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00041/19r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 19r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00042/19v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 19v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00043/20r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 20r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00044/20v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 20v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00045/21r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 21r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00046/21v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 21v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00047/22r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 22r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00048/22v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 22v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00049/23r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 23r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00050/23v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 23v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00051/24r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 24r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00052/24v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 24v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00053/25r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 25r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00054/25v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 25v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00055/26r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 26r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00056/26v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 26v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00057/27r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 27r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00058/27v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 27v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00059/28r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 28r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00060/28v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 28v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00061/29r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 29r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00062/29v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 29v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00063/30r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 30r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00064/30v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 30v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00065/31r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 31r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00066/31v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 31v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00067/32r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 32r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00068/32v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 32v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00069/33r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 33r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00070/33v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 33v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00071/34r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 34r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00072/34v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 34v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00073/35r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 35r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00074/35v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 35v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00075/36r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 36r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00076/36v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 36v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00077/37r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 37r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00078/37v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 37v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00079/38r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 38r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00080/38v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 38v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00081/39r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 39r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00082/39v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 39v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00083/40r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 40r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00084/40v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 40v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00085/41r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 41r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00086/41v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 41v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00087/42r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 42r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00088/42v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 42v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00089/43r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 43r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00090/43v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 43v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00091/44r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 44r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00092/44v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 44v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00093/45r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 45r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00094/45v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 45v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00095/46r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 46r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00096/46v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 46v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00097/47r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 47r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00098/47v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 47v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00099/48r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 48r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00100/48v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 48v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00101/49r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 49r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00102/49v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 49v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00103/50r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 50r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00104/50v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 50v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00105/51r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 51r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00106/51v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 51v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00107/52r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 52r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00108/52v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 52v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00109/53r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 53r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00110/53v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 53v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00111/54r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 54r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00112/54v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 54v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00113/55r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 55r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00114/55v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 55v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00115/56r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 56r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00116/56v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 56v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00117/57r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 57r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00118/57v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 57v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00119/58r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 58r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00120/58v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 58v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00121/59r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 59r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00122/59v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 59v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00123/60r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 60r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00124/60v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 60v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00125/61r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 61r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00126/61v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 61v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00127/62r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 62r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00128/62v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 62v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00129/63r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 63r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00130/63v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 63v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00131/64r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 64r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00132/64v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 64v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00133/65r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 65r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00134/65v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 65v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00135/66r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 66r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00136/66v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 66v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00137/67r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 67r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00138/67v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 67v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00139/68r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 68r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00140/68v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 68v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00141/69r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 69r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00142/69v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 69v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00143/70r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 70r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00144/70v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 70v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00145/71r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 71r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00146/71v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 71v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00147/72r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 72r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00148/72v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 72v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00149/73r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 73r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00150/73v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 73v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00151/74r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 74r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00152/74v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 74v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00153/75r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 75r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00154/75v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 75v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00155/76r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 76r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00156/76v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 76v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00157/77r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 77r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00158/77v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 77v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00159/78r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 78r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00160/78v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 78v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00161/79r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 79r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00162/79v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 79v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00163/80r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 80r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00164/80v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 80v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00165/81r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 81r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00166/81v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 81v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00167/82r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 82r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00168/82v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 82v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00169/83r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 83r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00170/83v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 83v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00171/84r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 84r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00172/84v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 84v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00173/85r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 85r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00174/85v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 85v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00175/86r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 86r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00176/86v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 86v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00177/87r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 87r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00178/87v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 87v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00179/88r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 88r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00180/88v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 88v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00181/89r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 89r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00182/89v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 89v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00183/90r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 90r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00184/90v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 90v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00185/91r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 91r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00186/91v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 91v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00187/92r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 92r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00188/92v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 92v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00189/93r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 93r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00190/93v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 93v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00191/94r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 94r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00192/94v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 94v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00193/95r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 95r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00194/95v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 95v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00195/96r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 96r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00196/96v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 96v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00197/97r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 97r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00198/97v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 97v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00199/98r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 98r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00200/98v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 98v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00201/99r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 99r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00202/99v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 99v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00203/100r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 100r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00204/100v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 100v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00205/101r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 101r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00206/101v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 101v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00207/102r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 102r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00208/102v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 102v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00209/103r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 103r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00210/103v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 103v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00211/104r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 104r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00212/104v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 104v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00213/105r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 105r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00214/105v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 105v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00215/106r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 106r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00216/106v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 106v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00217/107r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 107r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00218/107v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 107v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00219/108r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 108r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00220/108v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 108v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00221/109r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 109r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00222/109v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 109v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00223/110r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 110r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00224/110v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 110v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00225/111r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 111r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00226/111v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 111v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00227/112r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 112r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00228/112v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 112v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00229/113r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 113r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00230/113v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 113v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00231/114r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 114r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00232/114v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 114v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00233/115r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 115r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00234/115v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 115v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00235/116r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 116r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00236/116v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 116v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00237/117r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 117r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00238/117v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 117v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00239/118r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 118r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00240/118v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 118v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00241/119r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 119r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00242/119v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 119v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00243/120r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 120r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00244/120v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 120v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00245/121r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 121r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00246/121v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 121v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00247/122r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 122r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00248/122v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 122v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00249/123r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 123r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00250/123v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 123v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00251/124r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 124r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00252/124v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 124v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00253/125r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 125r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00254/125v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 125v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00255/126r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 126r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00256/126v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 126v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00257/127r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 127r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00258/127v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 127v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00259/128r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 128r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00260/128v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 128v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00261/129r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 129r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00262/129v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 129v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00263/130r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 130r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00264/130v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 130v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00265/131r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 131r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00266/131v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 131v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00267/132r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 132r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00268/132v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 132v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00269/133r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 133r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00270/133v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 133v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00271/134r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 134r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00272/134v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 134v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00273/135r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 135r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00274/135v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 135v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00275/136r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 136r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00276/136v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 136v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00277/137r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 137r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00278/137v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 137v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00279/138r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 138r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00280/138v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 138v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00281/139r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 139r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00282/139v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 139v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00283/140r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 140r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00284/140v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 140v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00285/141r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 141r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00286/141v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 141v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00287/142r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 142r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00288/142v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 142v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00289/143r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 143r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00290/143v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 143v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00291/144r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 144r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00292/144v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 144v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00293/145r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 145r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00294/145v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 145v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00295/146r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 146r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00296/146v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 146v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00297/147r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 147r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00298/147v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 147v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00299/148r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 148r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00300/148v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 148v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00301/149r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 149r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00302/149v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 149v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00303/150r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 150r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00304/150v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 150v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00305/151r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 151r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00306/151v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 151v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00307/152r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 152r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00308/152v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 152v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00309/153r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 153r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00310/153v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 153v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00311/154r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 154r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00312/154v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 154v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00313/155r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 155r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00314/155v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 155v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00315/156r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 156r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00316/156v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 156v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00317/157r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 157r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00318/157v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 157v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00319/158r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 158r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00320/158v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 158v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00321/159r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 159r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00322/159v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 159v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00323/160r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 160r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00324/160v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 160v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00325/161r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 161r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00326/161v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 161v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00327/162r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 162r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00328/162v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 162v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00329/163r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 163r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00330/163v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 163v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00331/164r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 164r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00332/164v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 164v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00333/165r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 165r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00334/165v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 165v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00335/166r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 166r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00336/166v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 166v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00337/167r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 167r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00338/167v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 167v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00339/168r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 168r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00340/168v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 168v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00341/169r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 169r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00342/169v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 169v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00343/170r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 170r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00344/170v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 170v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00345/171r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 171r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00346/171v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 171v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00347/172r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 172r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00348/172v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 172v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00349/173r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 173r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00350/173v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 173v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00351/174r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 174r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00352/174v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 174v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00353/175r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 175r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00354/175v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 175v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00355/176r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 176r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00356/176v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 176v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00357/177ar> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 177ar";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00358/177av> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 177av";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00359/177r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 177r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00360/177v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 177v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00361/178r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 178r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00362/178v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 178v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00363/179r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 179r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00364/179v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 179v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00365/180r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 180r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00366/180v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 180v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00367/181r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 181r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00368/181v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 181v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00369/182r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 182r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00370/182v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 182v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00371/183r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 183r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00372/183v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 183v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00373/184r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 184r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00374/184v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 184v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00375/185r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 185r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00376/185v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 185v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00377/186r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 186r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00378/186v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 186v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00379/187r> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 187r";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00380/187v> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. 187v";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00381/N1> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. N1";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00382/N2> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch f. N2";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00383/Massstab> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch Ruler";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00384/Massstab> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch Ruler";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00385/Profil> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch Color profile";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00386/Profil> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch Color profile";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00387/Profil> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch Color profile";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00388/Vorderseite> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch Front cover";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00389/Buchrücken> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch Spine";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00390/Rückseite> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch Back cover";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00391/Schliessenseite> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch Fore edge";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00392/Vordere_Innenseite> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch Front paste-down";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00393/Hintere_Innenseite> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch Rear paste-down";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00394/Kopfschnitt> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch Head";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
+<http://www.e-codices.unifr.ch/manuscripts/e-codices/film/kaw-konventsbuch/00395/Fussschnitt> dc:title "Wil, Dominikanerinnenkloster St. Katharina, Konventsbuch Tail";
+   a dms:canvas;
+   exif:height "1624";
+   exif:width "1218" .
