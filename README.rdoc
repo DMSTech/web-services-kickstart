@@ -7,6 +7,9 @@ Gem for getting access to RDF metadata for the image services
   gem install rake
   gem install rspec
   gem install echoe
+  gem install sinatra
+  gem install rdf
+  gem install rdf-n3
   gem install dmstech-ws-kickstart
   
 == Usage
@@ -14,16 +17,16 @@ Gem for getting access to RDF metadata for the image services
 This Gem provides a RESTful server based on Sinatra as well as a set of unit tests. Default
 server can be started from the command line.
 
-  ruby service/manifest_service.rb
+  ruby manifest_service.rb
   
-This will start Sinatra listening on port 3000. You can specify port number by supplying "-p"
+This will start Sinatra listening on port 4567. You can specify port number by supplying "-p"
 parameter. For example:
 
-  ruby service/manifest_service.rb -p 7070
+  ruby manifest_service.rb -p 7070
   
 One the server is running, you can execute the tests by calling rspec:
 
-  rspec spec/manifest_service_spec.rb
+  rspec manifest_service_spec.rb
   
 In the default setup the gem uses manifests stored locally on the file system. It's assumed 
 to have them in this directory:
