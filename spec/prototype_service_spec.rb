@@ -21,7 +21,7 @@ describe "service" do
   it "should provide JSON for the specified FOXML file" do
     get '/prototype/bd017cy0897'
     
-    attributes = JSON.parse(last_response.body)["bd017cy0897"]
+    attributes = JSON.parse(last_response.body)[0]["s"] # bd017cy0897
     attributes.should_not == nil
   end
 end

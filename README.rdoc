@@ -10,8 +10,18 @@ Gem for getting access to RDF metadata for the image services
   gem install sinatra
   gem install rdf
   gem install rdf-n3
+  gem install rdf-raptor
+  gem install rdf-xml
+  gem install rdf-json
+  gem install sparql
+  gem install sparql-grammar
+  gem install sxp
+  gem install libxml-ruby
+  gem install libxslt-ruby
   gem install dmstech-ws-kickstart
   
+Please note that sxp is required for sparql gems to operate properly
+
 == Usage
 
 This Gem provides a RESTful server based on Sinatra as well as a set of unit tests. Default
