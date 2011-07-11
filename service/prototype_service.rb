@@ -47,13 +47,13 @@ get '/prototype/:id' do |id|
   query.execute(graph).each do |solution|
     solution.each_binding do |name, value|
       hash = Hash.new
-      hash[name] = value.inspect()
+      hash[name] = value.to_s()
       
       solutions_array.push(hash)
     end
   end
   
-
   content_type 'application/json'
+  # content_type 'text/plain'
   JSON::generate(solutions_array)
 end
