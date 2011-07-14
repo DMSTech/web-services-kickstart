@@ -45,5 +45,4 @@ get '/manifest/:id.json' do |id|
   # TODO try that with sinatra-jsonp
   content_type 'application/json'
   output
-  
 end
