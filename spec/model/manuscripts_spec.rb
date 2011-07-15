@@ -4,12 +4,22 @@ require 'json'
 
 repo = Manuscripts.new
 10.times { |i|
-  repo.add("http://www.example.org/manuscript/#{i}")
+  repo.add(i, "http://www.example.org/manuscript/#{i}")
 }
 
 describe Manuscripts, "#add" do
   it "should add manuscripts" do
     repo.manuscripts.size.should == 10
+  end
+end
+
+describe Manuscripts, "#find" do
+  it "should find added manuscripts" do
+    10.times {|i|
+      m = repo.find(i)
+      m.should_not == nil
+      m.id.should == i
+    }
   end
 end
 
