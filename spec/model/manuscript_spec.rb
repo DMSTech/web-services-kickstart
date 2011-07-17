@@ -3,7 +3,7 @@ require 'json'
 
 describe Manuscript, "#to_json" do
   it "should provide json representation of the manuscript" do
-    manuscript = Manuscript.new("http://dmstech.stanford.edu/manuscript/1")
+    manuscript = Manuscript.new(1, "http://dmstech.stanford.edu/manuscript/1")
     
     json = JSON.parse(manuscript.to_json)
     json["manuscript"].should == "http://dmstech.stanford.edu/manuscript/1"

@@ -1,6 +1,8 @@
+require File.dirname(__FILE__) + '/base.rb'
 require 'json'
 
 class Manuscript
+  
   attr_accessor :id, :url
   
   def initialize(id, url)

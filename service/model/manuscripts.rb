@@ -1,9 +1,12 @@
 require File.dirname(__FILE__) + '/manuscript.rb'
+require File.dirname(__FILE__) + '/base.rb'
 require 'json'
 
 # Collection of manuscripts
-class Manuscripts
+class Manuscripts < Base
+  
   attr_accessor :manuscripts
+  
   def initialize()
     @manuscripts = Array.new()
   end
