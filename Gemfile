@@ -1,0 +1,16 @@
+source :rubygems
+
+gem  'rake'
+gem  'rspec'
+gem  'echoe'
+gem  'sinatra'
+gem  'rdf'
+gem  'rdf-n3'
+gem  'rdf-raptor'
+gem  'rdf-xml'
+gem  'rdf-json'
+gem  'sparql'
+gem  'sparql-grammar'
+gem  'sxp'
+gem  'libxml-ruby'
+gem  'libxslt-ruby'
