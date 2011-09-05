@@ -23,23 +23,16 @@ installation of bundler gem :))
   
 Please note that sxp is required for sparql gems to operate properly
 
-== Usage
+== Deployment
 
-This Gem provides a RESTful server based on Sinatra as well as a set of unit tests. Default
-server can be started from the command line.
+To launch the application in production please use thin. To install it
 
-  ruby manifest_service.rb
-  
-This will start Sinatra listening on port 4567. You can specify port number by supplying "-p"
-parameter. For example:
+   gem install thin
+   
+After successful installation, thin can be used to launch the services:
 
-  ruby manifest_service.rb -p 7070
-  
-One the server is running, you can execute the tests by calling rspec:
+   thin -C thin-test.yml -R config.ru start --debug
 
-  rspec manifest_service_spec.rb
-  
-In the default setup the gem uses manifests stored locally on the file system. It's assumed 
-to have them in this directory:
+For more information about how to use thin use
 
-  service/samples
+   thin -h

@@ -1,0 +1,11 @@
+---
+address: localhost
+port: 4568
+servers: 1
+max_conns: 1024
+max_persistent_conns: 512
+timeout: 30
+environment: dev
+pid: tmp/pids/thin-dev.pid
+log: log/thin-dev.log
+daemonize: true
