@@ -1,6 +1,7 @@
-require 'rubygems'
-require 'rake'
-require 'echoe'
+#require 'rubygems'
+#require 'rake'
+#require 'echoe'
+require 'rspec/core/rake_task'
 
 # For more information about building a gem, please see
 # http://railscasts.com/episodes/135-making-a-gem
@@ -18,15 +19,22 @@ require 'echoe'
 # 1. rake manifest
 # 2. rake build_gemspec
 #
-
-Echoe.new('dmstech-ws-kickstart', '0.0.1') do |p|
-  p.description    = "Web Services Kickstart Project"
-  p.url            = "http://github.com/DMSTech/web-services-kickstart"
-  p.author         = "Open Sky Solutions"
-  p.email          = "info@openskysolutions.com"
-  p.ignore_pattern = ["tmp/*", "script/*"] # not included into Gem
-  p.development_dependencies = ["sinatra", "rdf", "rdf-n3", "rdf-json"] # Echoe defaults to adding itself as dev dependency
-end
-
+#
+#Echoe.new('dmstech-ws-kickstart', '0.0.1') do |p|
+#  p.description    = "Web Services Kickstart Project"
+#  p.url            = "http://github.com/DMSTech/web-services-kickstart"
+#  p.author         = "Open Sky Solutions"
+#  p.email          = "info@openskysolutions.com"
+#  p.ignore_pattern = ["tmp/*", "script/*"] # not included into Gem
+#  p.development_dependencies = ["sinatra", "rdf", "rdf-n3", "rdf-json"] # Echoe defaults to adding itself as dev dependency
+#end
+#
 # Load require tasks
-Dir["#{File.dirname(__FILE__)}/tasks/*.rake"].sort.each { |ext| load ext }
+#Dir["#{File.dirname(__FILE__)}/tasks/*.rake"].sort.each { |ext| load ext }
+
+desc "Run specs"
+task :spec do
+  RSpec::Core::RakeTask.new(:spec) do |t|
+    t.pattern = './spec/**/*_spec.rb'
+  end
+end

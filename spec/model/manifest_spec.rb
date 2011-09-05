@@ -1,9 +1,10 @@
+require 'spec_helper'
+
 require File.dirname(__FILE__) + '/../../service/model/manifest.rb'
-require 'json'
 
-manifest = Manifest.new()
+manifest = Model::Manifest.new()
 
-describe Manifest do
+describe Model::Manifest do
   it "should provide non-empty json" do
     json = JSON.parse(manifest.to_json)
     json.should_not == nil

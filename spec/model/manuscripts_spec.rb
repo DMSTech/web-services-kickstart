@@ -1,19 +1,19 @@
+require 'spec_helper'
 require File.dirname(__FILE__) + '/../../service/model/manuscript.rb'
 require File.dirname(__FILE__) + '/../../service/model/manuscripts.rb'
-require 'json'
 
-repo = Manuscripts.new
+repo = Model::Manuscripts.new
 10.times { |i|
   repo.add(i, "http://www.example.org/manuscript/#{i}")
 }
 
-describe Manuscripts, "#add" do
+describe Model::Manuscripts, "#add" do
   it "should add manuscripts" do
     repo.manuscripts.size.should == 10
   end
 end
 
-describe Manuscripts, "#find" do
+describe Model::Manuscripts, "#find" do
   it "should find added manuscripts" do
     10.times {|i|
       m = repo.find(i)
@@ -23,9 +23,9 @@ describe Manuscripts, "#find" do
   end
 end
 
-describe Manuscripts, "#to_json" do
+describe Model::Manuscripts, "#to_json" do
   it "should provide json representation of manuscripts" do
-    json = JSON.parse(repo.to_json)    
+    json = JSON.parse(repo.to_json)
     json["manuscripts"].should_not == nil
     10.times { |i|
       json['manuscripts'][i].should == "http://www.example.org/manuscript/#{i}"
