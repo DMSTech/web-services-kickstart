@@ -14,7 +14,8 @@
 require File.dirname(__FILE__) + '/config/boot.rb'
 
 run Rack::URLMap.new({
-   "/"    => WebServicesKickstart::ImageService
-#  "/"    => Foobar::Foo,
-#  "/bar" => Foobar::Bar
+   "/v1/image"         => WebServicesKickstart::ImageService,
+   "/v1/manifest"      => WebServicesKickstart::ManifestService,
+   "/v1/manuscript"    => WebServicesKickstart::ManuscriptService,
+   "/v1/prototype"     => WebServicesKickstart::PrototypeService
 })

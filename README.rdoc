@@ -4,21 +4,22 @@ Gem for getting access to RDF metadata for the image services
 
 == Install
 
-  gem install rake
-  gem install rspec
-  gem install echoe
-  gem install sinatra
-  gem install rdf
-  gem install rdf-n3
-  gem install rdf-raptor
-  gem install rdf-xml
-  gem install rdf-json
-  gem install sparql
-  gem install sparql-grammar
-  gem install sxp
-  gem install libxml-ruby
-  gem install libxslt-ruby
-  gem install dmstech-ws-kickstart
+This project requires ruby 1.9.2. It may or may not run on older Ruby version. Please also make sure that 
+gem tool is installed on your system. 
+
+Installing project
+
+Please make sure that bundler gem is available on your system. If it's not, please install it
+
+  gem install bundler
+
+1. Install the required dependencies (bundle command should be available in case of successful
+installation of bundler gem :)) 
+  bundle install
+2. Verify the installation by running the unit tests
+  rake spec
+3. Start the services by calling. (rackup is a part of rake gem, that gets installed by bundler)
+  rackup config.ru
   
 Please note that sxp is required for sparql gems to operate properly
 
