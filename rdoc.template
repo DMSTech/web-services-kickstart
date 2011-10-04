@@ -1,0 +1,11 @@
+see http://cbpowell.wordpress.com/2011/01/21/beautiful-standardized-rdoc-comments-for-your-ruby-rails-methods/
+
+#
+#
+# * *Args*    :
+#   - ++ ->
+# * *Returns* :
+#   -
+# * *Raises* :
+#   - ++ ->
+#
