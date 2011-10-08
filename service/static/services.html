@@ -1,0 +1,75 @@
+<html>
+<head>
+	<title>Kick-Start Services</title>
+	<style type="text/css">
+		h4 {
+			background-color: #E3E3E3;
+			padding: 5px;
+		}
+		
+		body {
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+</head>
+<body style="padding: 10px">
+	<div style="margin-left: auto; margin-right: auto; width: 80%">
+	<!--
+	<h4>image_service.rb</h4>
+	<p>
+		Work-in-progress code for the Sinatra web service for Jatoka and image service, as defined 
+		in <a href="http://www.stanford.edu/group/dmstech/wikiupload/f/f0/ImageserviceRESTAPI.pdf">ImageserviceRESTAPI.pdf</a> specs.
+	</p>
+	-->
+	
+	<h4>manifest_service.rb</h4>
+	<p>
+		Web service implementation for outputting RDF for a Manifest file using N3 and JSON notation. This web service uses file 
+		system for retrieving the manifest information to be outputted.
+	</p>
+	<h5>Sample Links</h5>
+	<ul>
+		<li><a href="/v1/manifest/manifest/Manifest_kaw-0032.n3">Manifest_kaw-0032.n3</a> - Streams manifest content</li>
+		<li><a href="/v1/manifest/manifest/Manifest_kaw-0032.n3">Manifest_kaw-0032.json</a> - Streams manifest content as json</li>
+		<li><a href="/v1/manifest/manifest/test">Joseki Integration Test</a> - Pulls content from Joseki, and translates it into JSON</li>
+	</ul>
+	
+	<h4>manuscript_service.rb</h4>
+	<p>
+		Refactored manuscript service, as defined in <a href="https://consul.stanford.edu/display/DMSSI/DMSTech+RESTful+Web+Services+API#DMSTechRESTfulWebServicesAPI-2.1.3DMSTechURIs">DMSTechRESTfulWebServicesAPI</a>
+	</p>
+	<h5>Sample Links</h5>
+	<ul>
+		<li><a href="/v1/manuscript/manuscript">manuscript</a> - Gets manuscript collection</li>
+		<li><a href="/v1/manuscript/manuscript.txt">manuscript.txt</a> - Gets manuscript collection as plain text</li>
+		<li><a href="/v1/manuscript/manuscript/1.json">1.json</a> - Gets manuscript #1 collection as json</li>
+		<li><a href="/v1/manuscript/manuscript/1.txt">1.txt</a> - Gets manuscript #1 collection as text</li>
+		<li><a href="/v1/manuscript/manuscript/1.n3">1.n3</a> - Gets manuscript #1 collection as N3. Please note that this method might fail on Ruby 1.9.1 as there is a bug in RDF JSON library</li>
+	</ul>
+	
+	<h4>prototype_service.rb</h4>
+	<p>
+		Prototype service for loading image FOXML data, applying an XSLT transformation to it to convert into RDF, then running
+		a sample SPARQL query, and returning the result as JSON.
+	</p>
+	<h5>Sample Links</h5>
+	<ul>
+		<li>
+			<a href="/v1/prototype/prototype/bd017cy0897">bd017cy0897</a> - Loads the content, applies the XSLT to it, then converts the XSLT
+			 output into an RDF graph and finally sparkles the result set.
+	    </li>
+	</ul>
+	
+	<!--	
+	<h4>annotation_service.rb</h4>
+	<p>
+	</p>
+	<h5>Sample Links</h5>
+	<ul>
+		<li><a href=""></a></li>
+	</ul>
+	-->
+	<div>
+</body>
+</html>

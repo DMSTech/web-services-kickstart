@@ -9,8 +9,9 @@ module Model
   
   class Base
     def to_n3(*a)
+      json = to_json(*a)
       RDF::N3::Writer.buffer do |writer|
-        RDF::Reader.for(:json).new(to_json()) do |reader|
+        RDF::JSON::Reader.new(json) do |reader|
           reader.each_statement do |statement|
             writer << statement
           end
