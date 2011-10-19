@@ -1,0 +1,14 @@
+/file/app and /image/app Authorization
+You must manually copy a YAML file containing logins and passwords to
+PROJECT_ROOT/config/logins.yml with this format:
+
+'user-name1': password
+'username2': pword2
+etc...
+
+Project template borrowed from:
+https://github.com/daddz/sinatra-rspec-bundler-template.git
+
+Cleanup of temporary images should be run from cron every 15 minutes
+From cron
+0,15,30,45 * * * bash --login -c 'cd /path/to/digistacks project && ruby ./bin/cleanup_image_cache' > /tmp/image_cleanup.log 2>&1

@@ -1,0 +1,388 @@
+ab -n 30 -c 3 https://stacks-test.stanford.edu/image/jj330jz2440/jj330jz2440_00_0001?zoom=25&region=0,0,256,256
+
+Document Length:        499159 bytes
+
+Concurrency Level:      3
+Time taken for tests:   34.881244 seconds
+Complete requests:      30
+Failed requests:        0
+Write errors:           0
+Total transferred:      14984670 bytes
+HTML transferred:       14974770 bytes
+Requests per second:    0.86 [#/sec] (mean)
+Time per request:       3488.125 [ms] (mean)
+Time per request:       1162.708 [ms] (mean, across all concurrent requests)
+Transfer rate:          419.51 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       13   14   4.9     13      31
+Processing:  1150 3403 3057.5   1948   12682
+Waiting:     1134 3387 3057.3   1933   12666
+Total:       1163 3418 3057.5   1961   12696
+
+-------------
+ab -n 30 -c 3
+Document Path:          /adore-djatoka/resolver?svc.level=4&url_ver=Z39.88-2004&rft_id=file:///stacks/jj/330/jz/2440/jj330jz2440_00_0001.jp2&svc_val_fmt=info:ofi/fmt:kev:mtx:jpeg2000&svc_id=info:lanl-repo/svc/getRegion&svc.format=image/jpeg
+Document Length:        499159 bytes
+
+Concurrency Level:      3
+Time taken for tests:   35.731136 seconds
+Complete requests:      30
+Failed requests:        0
+Write errors:           0
+Total transferred:      14981190 bytes
+HTML transferred:       14974770 bytes
+Requests per second:    0.84 [#/sec] (mean)
+Time per request:       3573.114 [ms] (mean)
+Time per request:       1191.038 [ms] (mean, across all concurrent requests)
+Transfer rate:          409.45 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.6      0       2
+Processing:  1114 3518 2892.5   2722    9673
+Waiting:     1108 3503 2879.4   2716    9611
+Total:       1114 3519 2892.6   2722    9673
+
+------------------------
+ab -n 3 -c 1 "http://isis-dev.stanford.edu/adore-djatoka/resolver?url_ver=Z39.88-2004&rft_id=file:///stacks/jj/330/jz/2440/jj330jz2440_00_0001.jp2&svc_val_fmt=info:ofi/fmt:kev:mtx:jpeg2000&svc_id=info:lanl-repo/svc/getRegion&svc.format=image/jpeg"
+Document Length:        6802885 bytes
+Concurrency Level:      1
+Time taken for tests:   23.525397 seconds
+Complete requests:      3
+Failed requests:        0
+Write errors:           0
+Total transferred:      20409297 bytes
+HTML transferred:       20408655 bytes
+Requests per second:    0.13 [#/sec] (mean)
+Time per request:       7841.799 [ms] (mean)
+Time per request:       7841.799 [ms] (mean, across all concurrent requests)
+Transfer rate:          847.17 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:  7691 7841 251.8   7916    8132
+Waiting:     7580 7747 261.2   7830    8048
+Total:       7691 7841 251.8   7916    8132
+
+------------
+With curb
+ab -n 3 -c 1 https://stacks-test.stanford.edu/image/jj330jz2440/jj330jz2440_00_0001
+
+Document Length:        6802885 bytes
+
+Concurrency Level:      1
+Time taken for tests:   24.227609 seconds
+Complete requests:      3
+Failed requests:        0
+Write errors:           0
+Total transferred:      20409648 bytes
+HTML transferred:       20408655 bytes
+Requests per second:    0.12 [#/sec] (mean)
+Time per request:       8075.870 [ms] (mean)
+Time per request:       8075.870 [ms] (mean, across all concurrent requests)
+Transfer rate:          822.66 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       13   15   3.5     16      19
+Processing:  7960 8060  96.7   8110    8153
+Waiting:     7759 7858  96.7   7908    7952
+Total:       7973 8075  99.6   8126    8172
+
+------------------
+30 tiles
+Document Path:          /adore-djatoka/resolver?svc.level=4&url_ver=Z39.88-2004&svc.region=0,0,256,256&rft_id=file:///stacks/jj/330/jz/2440/jj330jz2440_00_0001.jp2&svc_val_fmt=info:ofi/fmt:kev:mtx:jpeg2000&svc_id=info:lanl-repo/svc/getRegion&svc.format=image/jpeg
+Document Length:        13255 bytes
+
+Concurrency Level:      3
+Time taken for tests:   7.48789 seconds
+Complete requests:      30
+Failed requests:        0
+Write errors:           0
+Total transferred:      404070 bytes
+HTML transferred:       397650 bytes
+Requests per second:    4.26 [#/sec] (mean)
+Time per request:       704.879 [ms] (mean)
+Time per request:       234.960 [ms] (mean, across all concurrent requests)
+Transfer rate:          55.90 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.8      0       3
+Processing:   206  699 1435.7    225    6018
+Waiting:      206  698 1435.6    224    6017
+Total:        206  699 1436.3    225    6020
+------
+30 tiles with curb
+Document Path:          /image/jj330jz2440/jj330jz2440_00_0001?zoom=25&region=0,0,256,256
+Document Length:        13255 bytes
+
+Concurrency Level:      3
+Time taken for tests:   8.474277 seconds
+Complete requests:      30
+Failed requests:        0
+Write errors:           0
+Total transferred:      407520 bytes
+HTML transferred:       397650 bytes
+Requests per second:    3.54 [#/sec] (mean)
+Time per request:       847.428 [ms] (mean)
+Time per request:       282.476 [ms] (mean, across all concurrent requests)
+Transfer rate:          46.85 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       13   16   5.5     14      30
+Processing:   216  820 408.9    696    1902
+Waiting:      215  819 408.9    695    1901
+Total:        229  836 408.3    710    1916
+
+Percentage of the requests served within a certain time (ms)
+  50%    710
+  66%    914
+  75%   1094
+  80%   1283
+  90%   1436
+  95%   1445
+  98%   1916
+  99%   1916
+ 100%   1916 (longest request)
+---------------
+3 Large requests
+Document Path:          /image/jj330jz2440/jj330jz2440_00_0001
+Document Length:        6802885 bytes
+
+Concurrency Level:      1
+Time taken for tests:   23.426828 seconds
+Complete requests:      3
+Failed requests:        0
+Write errors:           0
+Total transferred:      20409648 bytes
+HTML transferred:       20408655 bytes
+Requests per second:    0.13 [#/sec] (mean)
+Time per request:       7808.943 [ms] (mean)
+Time per request:       7808.943 [ms] (mean, across all concurrent requests)
+Transfer rate:          850.78 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       13   15   3.5     16      19
+Processing:  7682 7793 185.4   7848    8007
+Waiting:     7480 7591 186.5   7647    7807
+Total:       7695 7808 188.8   7864    8026
+----------------------
+3 Large request direct djatoka
+Document Path:          /adore-djatoka/resolver?url_ver=Z39.88-2004&rft_id=file:///stacks/jj/330/jz/2440/jj330jz2440_00_0001.jp2&svc_val_fmt=info:ofi/fmt:kev:mtx:jpeg2000&svc_id=info:lanl-repo/svc/getRegion&svc.format=image/jpeg
+Document Length:        6802885 bytes
+
+Concurrency Level:      1
+Time taken for tests:   22.158537 seconds
+Complete requests:      3
+Failed requests:        0
+Write errors:           0
+Total transferred:      20409297 bytes
+HTML transferred:       20408655 bytes
+Requests per second:    0.14 [#/sec] (mean)
+Time per request:       7386.179 [ms] (mean)
+Time per request:       7386.179 [ms] (mean, across all concurrent requests)
+Transfer rate:          899.43 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:  7197 7385 238.7   7480    7654
+Waiting:     7109 7302 240.2   7398    7571
+Total:       7197 7385 238.7   7480    7654
+
+Percentage of the requests served within a certain time (ms)
+  50%   7306
+  66%   7306
+  75%   7654
+  80%   7654
+  90%   7654
+  95%   7654
+  98%   7654
+  99%   7654
+ 100%   7654 (longest request)
+
+-----------------------
+curb no on_data handling
+15 tiles
+Document Path:          /image/jj330jz2440/jj330jz2440_00_0001?zoom=25&region=0,0,256,256
+Document Length:        13255 bytes
+
+Concurrency Level:      3
+Time taken for tests:   2.112757 seconds
+Complete requests:      15
+Failed requests:        0
+Write errors:           0
+Total transferred:      203760 bytes
+HTML transferred:       198825 bytes
+Requests per second:    7.10 [#/sec] (mean)
+Time per request:       422.551 [ms] (mean)
+Time per request:       140.850 [ms] (mean, across all concurrent requests)
+Transfer rate:          93.72 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       13   15   4.4     13      25
+Processing:   138  399 237.1    383     878
+Waiting:      137  398 237.2    383     878
+Total:        151  414 237.6    396     891
+
+Percentage of the requests served within a certain time (ms)
+  50%    356
+  66%    480
+  75%    652
+  80%    672
+  90%    729
+  95%    891
+  98%    891
+  99%    891
+ 100%    891 (longest request)
+---------------------
+direct djatoka 15 tiles
+Document Path:          /adore-djatoka/resolver?svc.level=4&url_ver=Z39.88-2004&svc.region=0,0,256,256&rft_id=file:///stacks/jj/330/jz/2440/jj330jz2440_00_0001.jp2&svc_val_fmt=info:ofi/fmt:kev:mtx:jpeg2000&svc_id=info:lanl-repo/svc/getRegion&svc.format=image/jpeg
+Document Length:        13255 bytes
+
+Concurrency Level:      3
+Time taken for tests:   1.978854 seconds
+Complete requests:      15
+Failed requests:        0
+Write errors:           0
+Total transferred:      202035 bytes
+HTML transferred:       198825 bytes
+Requests per second:    7.58 [#/sec] (mean)
+Time per request:       395.771 [ms] (mean)
+Time per request:       131.924 [ms] (mean, across all concurrent requests)
+Transfer rate:          99.55 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   1.6      0       4
+Processing:   126  384 264.4    343    1030
+Waiting:      126  383 264.4    342    1029
+Total:        126  384 264.6    345    1030
+
+Percentage of the requests served within a certain time (ms)
+  50%    321
+  66%    476
+  75%    571
+  80%    572
+  90%    710
+  95%   1030
+  98%   1030
+  99%   1030
+ 100%   1030 (longest request)
+-----------------
+curb, no on_data handling ---- 3 large requests
+Document Path:          /image/jj330jz2440/jj330jz2440_00_0001
+Document Length:        6802885 bytes
+
+Concurrency Level:      1
+Time taken for tests:   23.488560 seconds
+Complete requests:      3
+Failed requests:        0
+Write errors:           0
+Total transferred:      20409648 bytes
+HTML transferred:       20408655 bytes
+Requests per second:    0.13 [#/sec] (mean)
+Time per request:       7829.520 [ms] (mean)
+Time per request:       7829.520 [ms] (mean, across all concurrent requests)
+Transfer rate:          848.54 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       13   13   1.4     14      15
+Processing:  7579 7815 209.3   7933    7978
+Waiting:     7374 7612 211.4   7731    7777
+Total:       7594 7828 208.2   7946    7991
+
+Percentage of the requests served within a certain time (ms)
+  50%   7901
+  66%   7901
+  75%   7991
+  80%   7991
+  90%   7991
+  95%   7991
+  98%   7991
+  99%   7991
+ 100%   7991 (longest request)
+-------------------
+no cacheing, no curb - 10 tiles
+Document Path:          /image/jj330jz2440/jj330jz2440_00_0001?zoom=25&region=0,0,256,256
+Document Length:        13255 bytes
+
+Concurrency Level:      2
+Time taken for tests:   3.840 seconds
+Complete requests:      10
+Failed requests:        0
+Write errors:           0
+Total transferred:      135590 bytes
+HTML transferred:       132550 bytes
+Requests per second:    2.60 [#/sec] (mean)
+Time per request:       767.971 [ms] (mean)
+Time per request:       383.986 [ms] (mean, across all concurrent requests)
+Transfer rate:          34.48 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       41   55  12.5     50      78
+Processing:   386  674 341.9    536    1562
+Waiting:      384  673 341.8    535    1561
+Total:        430  729 350.3    589    1641
+
+Percentage of the requests served within a certain time (ms)
+  50%    589
+  66%    684
+  75%    727
+  80%    961
+  90%   1641
+  95%   1641
+  98%   1641
+  99%   1641
+ 100%   1641 (longest request)
+-----------------
+cacheing, curb - 10 tiles
+Document Path:          /image/jj330jz2440/jj330jz2440_00_0001?zoom=25&region=0,0,256,256
+Document Length:        13255 bytes
+
+Concurrency Level:      2
+Time taken for tests:   2.572 seconds
+Complete requests:      10
+Failed requests:        0
+Write errors:           0
+Total transferred:      135840 bytes
+HTML transferred:       132550 bytes
+Requests per second:    3.89 [#/sec] (mean)
+Time per request:       514.475 [ms] (mean)
+Time per request:       257.238 [ms] (mean, across all concurrent requests)
+Transfer rate:          51.57 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       43   51  11.8     46      74
+Processing:   340  441  73.0    425     624
+Waiting:      339  440  72.9    424     622
+Total:        412  492  77.6    471     698
+
+Percentage of the requests served within a certain time (ms)
+  50%    471
+  66%    472
+  75%    477
+  80%    529
+  90%    698
+  95%    698
+  98%    698
+  99%    698
+ 100%    698 (longest request)
+
+
+
+
+
+
+
+

@@ -3,3 +3,7 @@ doc
 Manifest
 log
 tmp
+bundle
+coverage*
+tmp/image
+config/logins.yml

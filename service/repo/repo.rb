@@ -10,6 +10,16 @@ module Repo
     def save(rdf)
       raise "Must be overridden"
     end
+    
+    # Loads all annotation from the repository
+    #
+    # * *Args*    :
+    # * *Returns* :
+    #   - Array of Model::Annotation instances available in the repository
+    #
+    def get_all()
+      raise "Must be overridden"
+    end
 
     # Loads annotation with the specified URI from the repository
     #

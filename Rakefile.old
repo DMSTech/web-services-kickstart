@@ -2,9 +2,6 @@
 #require 'rake'
 #require 'echoe'
 require 'rspec/core/rake_task'
-#require 'rake'
-require 'spec/rake/spectask'
-
 
 # For more information about building a gem, please see
 # http://railscasts.com/episodes/135-making-a-gem
@@ -41,17 +38,3 @@ task :spec do
     t.pattern = './spec/**/*_spec.rb'
   end
 end
-
-task :clean do
-  puts 'Cleaning old coverage.data'
-  FileUtils.rm('coverage.data') if(File.exists? 'coverage.data')
-end
-
-Spec::Rake::SpecTask.new(:rcov) do |spec|
-  spec.libs << 'lib' << 'spec'
-  spec.pattern = 'spec/**/*_spec.rb'
-  spec.rcov = true
-  spec.rcov_opts = %w{--exclude spec\/*,gems\/*,ruby\/*,lyber_core\/* --aggregate coverage.data}
-end
-
-task :default => [:clean, :rcov]

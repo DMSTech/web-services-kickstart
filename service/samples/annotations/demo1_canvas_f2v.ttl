@@ -10,6 +10,7 @@
 
 # subject prediate object
 # ; - uses to repeat the subject
+# a - replaces rdf:type - designates type of an object
 
 <urn:uuid:C4F0E203-6A60-0001-753B-ABE6527A15D8> a oac:Annotation ;
 dcterms:created "2011-09-27 00:15:41 UTC" ;
@@ -19,9 +20,12 @@ oac:hasTarget <urn:uuid:C4F0E203-6A80-0001-7C4A-1E581D9BD590> .
  
 <urn:uuid:C4F0E203-6A70-0001-E898-CA35DFD0F9D0> a cnt:ContentAsText ;
 cnt:chars "test" ;
-cnt:characterEncoding "utf-8" . <urn:uuid:C4F0E203-6A80-0001-7C4A-1E581D9BD590> a oac:ConstrainedTarget ;
+cnt:characterEncoding "utf-8" . 
+
+<urn:uuid:C4F0E203-6A80-0001-7C4A-1E581D9BD590> a oac:ConstrainedTarget ;
 oac:constrains <http://www.shared-canvas.org/impl/demo1/res/Canvas-f2v> ;
 oac:constrainedBy <urn:uuid:C4F0E203-6A80-0001-C46E-91D0132417A6> . 
+
 <urn:uuid:C4F0E203-6A80-0001-C46E-91D0132417A6> a oac:SvgConstraint , cnt:ContentAsText ;
 cnt:chars "<svg:path xmlns:svg='http://www.w3.org/2000/svg' fill='#ffbbff' stroke='#000000' d='M126,327L95,471L224,568L281,490Z' style='opacity: 0.7;stroke-width: 2;' opacity='0.7' stroke-width='2' ></svg:path>" ;
 cnt:characterEncoding "utf-8" .

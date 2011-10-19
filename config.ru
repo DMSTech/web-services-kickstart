@@ -18,5 +18,7 @@ run Rack::URLMap.new({
    "/v1/manifest"      => WebServicesKickstart::ManifestService,
    "/v1/manuscript"    => WebServicesKickstart::ManuscriptService,
    "/v1/prototype"     => WebServicesKickstart::PrototypeService,
-   "/files" =>  WebServicesKickstart::FileService
+   "/files"            => WebServicesKickstart::FileService,
+   "/file"             => FileService,
+   "/image"            => ImageService
 })

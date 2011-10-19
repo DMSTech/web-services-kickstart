@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+require 'fileutils'
+
+CLEANUP_THRSHLD = 15 # files older than 15 minutes are deleted 
+tmp_image_dir = File.join(File.expand_path(File.dirname(__FILE__)), "..", "tmp", "image")
+
+puts "Examining #{tmp_image_dir}"
+files_to_delete = Dir[tmp_image_dir + "/*"].select { |f| File.mtime(f) < Time.now - CLEANUP_THRSHLD * 60 }
+puts "Deleting: " << files_to_delete.inspect
+files_to_delete.each { |f| FileUtils.rm(f)}
